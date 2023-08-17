@@ -97,3 +97,5 @@ parser = Parser('database.json')
 my_chatbot = Chatbot("MyChatbot")
 my_chatbot.interactive_session(trainer, parser)
 ```
+
+Keep training your chatbot by texting or adding words in the database and then run it!
