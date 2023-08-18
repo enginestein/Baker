@@ -58,7 +58,9 @@ Same process is with the YAML files with a bit different syntax and nothing else
 To train the chatbot, the `Trainer` class is used:
 
 ```py
-bot = Trainer('database.yaml')
+from baker import trainer
+
+bot = trainer.Trainer('database.yaml')
 
 user_input = input("You: ")
 response = bot.get_response(user_input)
@@ -75,6 +77,8 @@ Note :- The keyword must be already created in the file or else the trainer will
 To parse the chatbot use the `Parser` class:
 
 ```py
+from baker import parser
+
 def test_chatbot(bot):
     while True:
         user_input = input("You: ")
@@ -84,7 +88,7 @@ def test_chatbot(bot):
         response = bot.get_response(user_input)
         print("Bot:", response)
 
-bot = Parser('database.json')
+bot = parser.Parser('database.json')
 
 test_chatbot(bot)
 ```
@@ -92,9 +96,13 @@ test_chatbot(bot)
 The above code will run the chatbot, but there is anther simpler way to run the chatbot with it's specified name which is to use the `Chatbot` class:
 
 ```py
-trainer = Trainer('database.json')
-parser = Parser('database.json')
-my_chatbot = Chatbot("MyChatbot")
+from baker import trainer
+from baker import parser
+from baker import chatbot
+
+trainer = trainer.Trainer('database.json')
+parser = parser.Parser('database.json')
+my_chatbot = chatbot.Chatbot("MyChatbot")
 my_chatbot.interactive_session(trainer, parser)
 ```
 
