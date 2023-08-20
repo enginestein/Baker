@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from setuptools import setup
-
 try:
     long_description = open('README.md', 'r').read()
 except:
@@ -8,7 +7,7 @@ except:
 
 setup(
     name='baker-python',
-    version='1.0.0',
+    version='1.1',
     packages=['baker'],
     url='https://github.com/enginestein/Baker',
     license='GPL-3.0-only',
