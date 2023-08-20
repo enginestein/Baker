@@ -90,7 +90,7 @@ But with this way to train you can train the chatbot as long you want to with cu
 
 ```py
 trainer = Trainer("database.json")
-trainer.loop_training()'''
+trainer.loop_training()
 ```
 
 The data file can either be empty or it can have keywords, pre-defined keyowrds can be trained too.
