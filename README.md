@@ -1,5 +1,7 @@
 # Baker
 
+[![Downloads](https://static.pepy.tech/badge/baker-python)](https://pepy.tech/project/baker-python)
+
 *Bot-Maker* Baker! Is a framework to create chatbots with Python in the easiest and simplest route, train your chatbot by texting or adding data in XML, JSON or YAML files. 
 
 # Installation
