@@ -1,7 +1,5 @@
 # Baker
 
-[![Downloads](https://static.pepy.tech/badge/baker-python)](https://pepy.tech/project/baker-python)
-
 *Bot-Maker* Baker! Is a framework to create chatbots with Python in the easiest and simplest route, train your chatbot by texting or adding data in XML, JSON or YAML files. 
 
 # Installation
@@ -72,9 +70,11 @@ The files can also be empty for example a JSON file can be like this:
 To train the chatbot, use the `Trainer` class. Here is an example of basic training:
 
 ```py
-from baker import trainer
+import baker.trainer
+import baker.bparser
+import baker.chatbot
 
-bot = trainer.Trainer('database.yaml')
+bot = baker.trainer.Trainer('data.json')
 
 user_input = input("You: ")
 response = bot.get_response(user_input)
@@ -91,7 +91,9 @@ from this route the keyword (user's question) must be already created in the fil
 But with this way to train you can train the chatbot as long you want to with custom keywords (no need to define them in the data file) and their infinite responses:
 
 ```py
-trainer = Trainer("database.json")
+import baker.trainer
+
+trainer = baker.trainer.Trainer('data.json')
 trainer.loop_training()
 ```
 
@@ -102,7 +104,7 @@ The data file can either be empty or it can have keywords, pre-defined keyowrds 
 To parse the chatbot to run and test it use the `Parser` class:
 
 ```py
-from baker import parser
+import baker.bparser
 
 def test_chatbot(bot):
     while True:
@@ -113,7 +115,7 @@ def test_chatbot(bot):
         response = bot.get_response(user_input)
         print("Bot:", response)
 
-bot = parser.Parser('database.json')
+bot = baker.bparser.Parser('data.json')
 
 test_chatbot(bot)
 ```
@@ -121,14 +123,14 @@ test_chatbot(bot)
 The above code will run the chatbot, but there is anther simpler way to run the chatbot with it's specified name which is to use the `Chatbot` class:
 
 ```py
-from baker import trainer
-from baker import parser
-from baker import chatbot
+import baker.trainer
+import baker.bparser
+import baker.chatbot
 
-trainer = trainer.Trainer('database.json')
-parser = parser.Parser('database.json')
-my_chatbot = chatbot.Chatbot("MyChatbot")
-my_chatbot.interactive_session(trainer, parser)
+trainer = baker.trainer.Trainer('data.json')
+parser = baker.bparser.Parser('data.json')
+my_chatbot = baker.chatbot.Chatbot("MyChatbot")
+my_chatbot.session(trainer, parser)
 ```
 
 `Parser` class has more functions regarding the data file:
@@ -136,40 +138,37 @@ my_chatbot.interactive_session(trainer, parser)
 - Exporting responses :
 
 ```py
-response_file_name = "responses.json"  
-Parser = Parser(response_file_name)
-parser.export_responses("exported_responses.xml")
+import baker.bparser
+
+response_file_name = "data.json"  
+parser_instance = baker.bparser.Parser(response_file_name)  
+parser_instance.export_responses(export_file_name="data2.json")
 ```
 
 - Reset resposes
 
 ```py
-parser.reset_responses("A_User_Question")
+baker.bparser.Parser.reset_responses("A_User_Question")
 ```
 
 - Removing responses:
 
 ```py
-user_input = "What is the weather like?"
-response_to_remove = "I'm not sure."
-parser.remove_response(user_input, response_to_remove)
-```
+parser_instance2 = baker.bparser.Parser("data.json")
 
-- List questions:
-
-```py
-key_questions = parser.list_questions()
-print("List of Key Questions:")
-for question in key_questions:
-    print(question)
+user_input = "Hello"
+response_to_remove = "Heyy"
+parser_instance2.remove_response(user_input, response_to_remove)
 ```
 
 - Count responses:
 
 ```py
-user_input = "Tell me a joke"
-response_count = parser.count_responses(user_input)
-print(f"Number of Responses for '{user_input}': {response_count}")
+parser_instance3 = baker.bparser.Parser("data.json")
+user_input = "Hello"
+
+count = parser_instance3.count_responses(user_input)
+print(f"Number of Responses for '{user_input}': {count}")
 ```
 
 Keep training your chatbot by texting or adding words in the database and then run it!

@@ -1,6 +1,6 @@
 import re
-from parser import Parser
-from trainer import Trainer
+import baker.trainer
+import baker.bparser as bparser
 
 class Chatbot:
     def __init__(self, name):
@@ -13,5 +13,5 @@ class Chatbot:
             if user_input.lower() == "exit":
                 print("Session ended.")
                 break
-            response = parser.get_response(user_input)
+            response = parser.get_response(user_input)  # Corrected line
             print("Bot:", response)

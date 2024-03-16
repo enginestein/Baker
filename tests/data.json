@@ -1,0 +1,14 @@
+{
+    "Hello": [
+        "Hi",
+        "Hello",
+        "Hey mister, how are you?"
+    ],
+    "How are you": [
+        "I'm good sir what about you? "
+    ],
+    "I am good too": [
+        "that is good to know! ",
+        "that is very good to know! "
+    ]
+}
