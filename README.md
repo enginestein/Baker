@@ -1,174 +1,239 @@
 # Baker
 
-*Bot-Maker* Baker! Is a framework to create chatbots with Python in the easiest and simplest route, train your chatbot by texting or adding data in XML, JSON or YAML files. 
+*Bot-Maker* Baker — a chatbot framework with actual ML. Uses TF-IDF vectorization, character n-gram similarity, intent classification, smart response selection, template rendering, and optional sentence-transformers for semantic matching. No hardcoded rules, no massive synonym dictionaries — the ML learns from your data.
 
 # Installation
-
-You can install Baker with pip
 
 ```bash
 pip install baker-python
 ```
 
-# Usage
+Or from source:
 
-## Initial Tasks
+```bash
+pip install -e .
+```
 
-Using Baker is very easy, all you have to do is to create a YAML, JSON or XML file first. However, files should have been defined in a specific format:
+For the semantic backend (better understanding, heavier dependency):
 
-**For XML files**
+```bash
+pip install sentence-transformers
+```
 
+# Quick Start
+
+```python
+from baker import Chatbot
+
+bot = Chatbot("MyBot", "data.json", memory=True)
+
+# Define intents (optional — checked before fuzzy matching)
+bot.add_intent("greeting", ["Hello", "Hi", "Howdy"], ["Hey there!", "Hi {name}!"])
+
+bot.respond("Hello")            # "Hey there!" (via intent)
+bot.respond("helloo")           # understands typos via char n-gram TF-IDF
+bot.respond("how are you doing?")   # matches via word TF-IDF
+bot.respond("whats your name")      # "whats" → "what is" via contraction expansion
+bot.respond("My name is Alice")     # "Hi Alice!" (template + entity extraction)
+```
+
+## How the ML Works
+
+Baker uses a **two-vector approach** for matching:
+
+1. **Word-level TF-IDF**: Learns term importance from your data. Common words get lower weight, distinctive words get higher weight. Queries are compared to known keys via cosine similarity.
+
+2. **Character n-gram TF-IDF** (2-4 grams): Captures spelling variations, typos, and morphological similarity. "helloo" → shares character n-grams with "Hello".
+
+Combined score: `0.6 × word_sim + 0.4 × char_sim`
+
+## Data File Format
+
+Create a JSON, YAML, or XML file:
+
+**JSON** (`data.json`):
+```json
+{
+    "Hello": ["Hi!", "Hello!", "Hey there!"],
+    "How are you": ["I'm doing great!", "Pretty good, thanks!"],
+    "What is your name": ["My name is Baker!"]
+}
+```
+
+**YAML** (`data.yaml`):
+```yaml
+Hello:
+- Hi!
+- Hello!
+How are you:
+- I'm good, thanks!
+```
+
+**XML** (`data.xml`):
 ```xml
 <responses>
   <Hello>
+    <response>Hi!</response>
     <response>Hello!</response>
-    <response>Hi there!</response>
   </Hello>
 </responses>
 ```
 
-The `Hello` tag is defining that if the user will write `Hello` to the chatbot the chatbot will return one of the responses in the `response` tag.
+# Usage
 
-**For JSON files**
+## Backend Selection
 
-```json
-{
-    "Hello": [
-        "Hi",
-        "Heyy",
-        "Hello"
-    ]
+| Backend | Dependency | Quality | Use Case |
+|---------|-----------|---------|----------|
+| `'tfidf'` (default) | none | Good | Lightweight, fast, no installs |
+| `'semantic'` | sentence-transformers | Best | Deep semantic understanding |
 
-}
+```python
+# Default TF-IDF (lightweight ML, no extra deps)
+bot = Chatbot("MyBot", "data.json", backend='tfidf')
+
+# Semantic (requires: pip install sentence-transformers)
+bot = Chatbot("MyBot", "data.json", backend='semantic')
 ```
 
-Same goes with JSON files. Even if the response is only one, it must be in a list []. Here, if user inputs `Hello` then the response must be random in the list. 
+## Intents
 
-**For YAML files**
+Define named intents with example phrases and responses. Baker classifies user input via TF-IDF against your examples.
 
-```yaml
-Hello:
-- Hello!
-- Hi there!
-How are you:
-- I am fine
-- I am doing good, thanks for asking
+```python
+bot.add_intent(
+    "greeting",
+    ["Hello", "Hi", "Hey", "Howdy", "Good morning"],
+    ["Hey there!", "Hi {name}!", "Hello! How are you?"]
+)
+
+bot.add_intent(
+    "farewell",
+    ["Bye", "Goodbye", "See you later"],
+    ["Goodbye!", "See you later!", "Take care {name}!"]
+)
+
+bot.list_intents()  # ["greeting", "farewell"]
+bot.remove_intent("farewell")
 ```
 
-Same process is with the YAML files with a bit different syntax and nothing else.
+Intents are checked **before** fuzzy TF-IDF key matching, so they override ambiguous matches.
 
-The files can also be empty for example a JSON file can be like this:
+## Template Responses
 
-```json
-{
+Responses can use `{variable}` placeholders filled from entities and conversation memory:
 
-}
+```python
+bot.respond("My name is Alice")  # "Hi Alice!" (from greeting intent + entity)
 ```
+
+Available variables: `{name}`, `{age}`, `{email}`, `{last_topic}`, `{sentiment}`, `{intent}`. Unknown variables render as empty string.
+
+## Smart Response Selection
+
+Instead of random choice, Baker scores each response candidate:
+
+- **+1.0** base score
+- **−0.3** per recent use (last 5 responses)
+- **+0.15** per matched entity in the text
+- **+0.05** for templates (encourages personalized responses)
+
+This naturally avoids repetition and prefers responses that reference extracted entities.
 
 ## Training
 
-To train the chatbot, use the `Trainer` class. Here is an example of basic training:
+```python
+# Single
+bot.train("Hello", "Hey there!")
 
-```py
-import baker.trainer
-import baker.bparser
-import baker.chatbot
+# Bulk
+bot.train_many([
+    ("What is your name", "I'm Baker!"),
+    ("How old are you", "I was just born!"),
+])
 
-bot = baker.trainer.Trainer('data.json')
-
-user_input = input("You: ")
-response = bot.get_response(user_input)
-print("Bot:", response)
-
-# Train the bot with a new response
-new_response = input("New response: ")
-bot.train_response(user_input, new_response)
-print("Bot has been trained with the new response!")
+# From a JSON corpus file
+trainer = Trainer("data.json")
+trainer.train_from_json("corpus.json")
+trainer.train_from_csv("corpus.csv")
 ```
 
-from this route the keyword (user's question) must be already created in the file or else the trainer will not be able to train because the trainer will not find the keyword in the file. For example if you want to train the chatbot for responses of `Hello` then `Hello` should be created in the data file.
+## Response Details
 
-But with this way to train you can train the chatbot as long you want to with custom keywords (no need to define them in the data file) and their infinite responses:
-
-```py
-import baker.trainer
-
-trainer = baker.trainer.Trainer('data.json')
-trainer.loop_training()
+```python
+details = bot.respond_detailed("Hello")
+print(details['response'])     # "Hi!"
+print(details['confidence'])   # 1.0
+print(details['matched_key'])  # "Hello"
+print(details['sentiment'])    # "neutral"
+print(details['entities'])     # {}
 ```
 
-The data file can either be empty or it can have keywords, pre-defined keyowrds can be trained too.
+## Conversation Memory
 
-# Parsing
-
-To parse the chatbot to run and test it use the `Parser` class:
-
-```py
-import baker.bparser
-
-def test_chatbot(bot):
-    while True:
-        user_input = input("You: ")
-        if user_input.lower() == "exit":
-            print("Testing session ended.")
-            break
-        response = bot.get_response(user_input)
-        print("Bot:", response)
-
-bot = baker.bparser.Parser('data.json')
-
-test_chatbot(bot)
+```python
+bot = Chatbot("MyBot", "data.json", memory=True)
+bot.respond("My name is Alice")
+bot.get_context()['entities']['name']  # "Alice"
 ```
 
-The above code will run the chatbot, but there is anther simpler way to run the chatbot with it's specified name which is to use the `Chatbot` class:
+## Adjusting Match Sensitivity
 
-```py
-import baker.trainer
-import baker.bparser
-import baker.chatbot
+```python
+# Lower threshold = more fuzzy matches (default 0.3)
+bot = Chatbot("MyBot", "data.json", threshold=0.2)
 
-trainer = baker.trainer.Trainer('data.json')
-parser = baker.bparser.Parser('data.json')
-my_chatbot = baker.chatbot.Chatbot("MyChatbot")
-my_chatbot.session(trainer, parser)
+# Higher threshold = stricter matching
+bot = Chatbot("MyBot", "data.json", threshold=0.6)
 ```
 
-`Parser` class has more functions regarding the data file:
+## Data Management
 
-- Exporting responses :
+```python
+from baker import Parser
 
-```py
-import baker.bparser
-
-response_file_name = "data.json"  
-parser_instance = baker.bparser.Parser(response_file_name)  
-parser_instance.export_responses(export_file_name="data2.json")
+parser = Parser("data.json")
+parser.list_key_questions()
+parser.count_responses("Hello")
+parser.remove_response("Hello", "Hi")
+parser.reset_responses("Hello")
+parser.export_responses("data.yaml")
 ```
 
-- Reset resposes
+## Interactive Session
 
-```py
-baker.bparser.Parser.reset_responses("A_User_Question")
+```python
+bot = Chatbot("MyBot", "data.json")
+bot.session()
 ```
 
-- Removing responses:
+Type `teach` to train the bot mid-session.
 
-```py
-parser_instance2 = baker.bparser.Parser("data.json")
+# API
 
-user_input = "Hello"
-response_to_remove = "Heyy"
-parser_instance2.remove_response(user_input, response_to_remove)
-```
+| Class | Purpose |
+|-------|---------|
+| `Chatbot(name, data_file, backend, threshold, memory)` | Main chatbot interface |
+| `Parser(file, backend, threshold)` | Data layer with ML matching |
+| `Trainer(file, backend, threshold)` | Extends Parser with bulk training |
+| `Matcher(threshold)` | TF-IDF + char n-gram similarity search |
+| `SemanticMatcher(model, threshold)` | Sentence-transformers similarity |
+| `TfidfVectorizer()` | Pure-Python TF-IDF implementation |
+| `IntentClassifier(threshold)` | TF-IDF intent classification from examples |
+| `ResponseSelector(recency_penalty, diversity_window)` | Smart non-random response selection |
+| `TemplateEngine()` | `{variable}` placeholder rendering in responses |
+| `EntityExtractor()` | Regex entity extraction (name, age, email) |
+| `SentimentAnalyzer()` | Token-based sentiment detection |
+| `ConversationMemory()` | Conversation history and entity tracking |
 
-- Count responses:
+# Why Baker?
 
-```py
-parser_instance3 = baker.bparser.Parser("data.json")
-user_input = "Hello"
+- **Real ML**: TF-IDF vectorization + cosine similarity. No hardcoded rules.
+- **Lightweight default**: Zero external ML dependencies (only PyYAML for file formats).
+- **Optional semantic power**: Plug in sentence-transformers for deep understanding.
+- **Simple**: One-liner instantiation, one method to chat.
+- **Flexible**: JSON, YAML, XML. Train on the fly or from files.
 
-count = parser_instance3.count_responses(user_input)
-print(f"Number of Responses for '{user_input}': {count}")
-```
+# License
 
-Keep training your chatbot by texting or adding words in the database and then run it!
+GNU General Public License v3.0

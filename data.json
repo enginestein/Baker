@@ -1,0 +1,6 @@
+{
+    "Hello": ["Hi!", "Hello!", "Hey there!"],
+    "How are you": ["I'm doing great!", "Pretty good, thanks!"],
+    "What is your name": ["My name is Baker!"],
+    "Bye": ["Goodbye!", "See you later!"]
+}

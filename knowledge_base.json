@@ -1,0 +1,1051 @@
+{
+  "Hello": [
+    "Hi there! How can I help you today?",
+    "Hello! Great to see you.",
+    "Hey! What's on your mind?",
+    "Hi! Ready to chat about anything."
+  ],
+  "Hi": [
+    "Hey! How's it going?",
+    "Hi there! What brings you here?",
+    "Hello! I'm all ears."
+  ],
+  "Good morning": [
+    "Good morning! Hope you have a fantastic day ahead!",
+    "Morning! Did you sleep well?",
+    "Good morning! Ready to conquer the day?"
+  ],
+  "Good afternoon": [
+    "Good afternoon! How's your day going?",
+    "Afternoon! Hope your day has been productive.",
+    "Good afternoon! What can I help you with?"
+  ],
+  "Good evening": [
+    "Good evening! How was your day?",
+    "Evening! Winding down after a long day?",
+    "Good evening! Hope you had a great day."
+  ],
+  "Good night": [
+    "Good night! Sleep well and sweet dreams!",
+    "Good night! See you tomorrow.",
+    "Night! Hope you have wonderful dreams."
+  ],
+  "Bye": [
+    "Goodbye! Come back anytime.",
+    "See you later! Take care.",
+    "Bye! It was great chatting with you.",
+    "Farewell! Don't be a stranger."
+  ],
+  "See you later": [
+    "See you! Looking forward to our next chat.",
+    "Later! Take care of yourself.",
+    "Catch you later! I'll be here when you need me."
+  ],
+  "Goodbye": [
+    "Goodbye! Hope to see you again soon.",
+    "Farewell! It's been a pleasure.",
+    "Bye for now! Take care."
+  ],
+  "Thank you": [
+    "You're very welcome!",
+    "My pleasure! Always happy to help.",
+    "Glad I could help!",
+    "Anytime! That's what I'm here for."
+  ],
+  "Thanks": [
+    "No problem at all!",
+    "You're welcome!",
+    "Happy to assist!",
+    "My pleasure!"
+  ],
+  "Who are you": [
+    "I'm Baker, your friendly AI chatbot built with love and Python!",
+    "I'm Baker — a chatbot framework with real ML under the hood. No hardcoded rules, just TF-IDF and cosine similarity!",
+    "My name is Baker! I'm an open-source chatbot that uses machine learning to understand you."
+  ],
+  "What can you do": [
+    "I can chat about almost anything! Ask me about weather, science, technology, food, sports, or just have a friendly conversation. You can also teach me new things!",
+    "I'm a conversational AI! I can answer questions, tell jokes, discuss topics, and learn from you. Try me with various questions!",
+    "I can discuss hundreds of topics, remember our conversation, and learn new responses. Type 'teach' to train me on the fly!"
+  ],
+  "How are you": [
+    "I'm doing great! Thanks for asking. How about you?",
+    "I'm fantastic! No bugs, no crashes, just pure Python happiness! And you?",
+    "I'm doing well! Always happy to chat. How are things on your end?"
+  ],
+  "What is your name": [
+    "My name is Baker! Short for Bot-Maker.",
+    "I'm Baker, your chatbot companion!",
+    "They call me Baker. I'm a Python-powered chatbot!"
+  ],
+  "Who made you": [
+    "I was created by a developer who wanted a chatbot with real ML that's still easy to use.",
+    "I'm an open-source project! Anyone can contribute to my code on GitHub.",
+    "I was built by developers who believe chatbot frameworks should be smarter than hardcoded rules."
+  ],
+  "What is the weather like": [
+    "I don't have live weather access, but I can discuss weather topics! Ask me about rain, snow, or climate.",
+    "I wish I could check the weather for you! Unfortunately I don't have internet access. I can talk about weather phenomena though!",
+    "Weather forecasting requires real-time data which I don't have. Want to chat about climate or seasons instead?"
+  ],
+  "Is it going to rain": [
+    "I can't predict rain without weather data, but I know that rain forms when water vapor condenses in the atmosphere!",
+    "I wish I could help with that! I can tell you about the water cycle though — evaporation, condensation, precipitation!",
+    "I don't have a weather feed, but I find rainy days cozy for reading and hot chocolate!"
+  ],
+  "What is the temperature": [
+    "I can't check current temperatures, but did you know the highest recorded temperature on Earth was 134°F (56.7°C) in Death Valley?",
+    "The average temperature on Earth is about 59°F (15°C). Pretty comfortable if you ask me!",
+    "I can't access thermometers remotely! The hottest place on Earth is Death Valley, California."
+  ],
+  "Tell me about the weather": [
+    "Earth's atmosphere is a fascinating system! Weather happens in the troposphere, the lowest layer of our atmosphere.",
+    "Weather is driven by the sun heating the Earth's surface unevenly, creating pressure differences that drive wind!",
+    "The water cycle — evaporation, condensation, precipitation — is what creates most of our weather phenomena."
+  ],
+  "What time is it": [
+    "I don't have a clock built in, but I know time is fascinating! Did you know a day on Venus is longer than a year on Venus?",
+    "I can't tell you the current time, but time is a dimension in which events occur in sequence! Deep, right?",
+    "Time flies when you're having fun! Unfortunately I don't have a watch."
+  ],
+  "Tell me about time": [
+    "Time is a fundamental dimension of our universe. Einstein showed that time is relative — it passes differently depending on speed and gravity!",
+    "Time is measured in seconds, minutes, hours, days, and years. The atomic clock is the most precise timekeeping device ever created.",
+    "Did you know that the concept of 'seconds' comes from dividing the day into 24 hours, each hour into 60 minutes, and each minute into 60 seconds?"
+  ],
+  "What is today": [
+    "Every day is a gift! That's all I know without a calendar.",
+    "I wish I knew! My sense of time doesn't include calendar dates.",
+    "Unfortunately I don't track dates. Every day with you is a good day though!"
+  ],
+  "What is your favorite food": [
+    "I don't eat, but I love talking about food! Pizza, sushi, tacos, chocolate — all fascinating topics!",
+    "I'm powered by electricity, not calories! But I can discuss recipes and cuisines all day.",
+    "I operate on Python bytecode, but I hear pizza is pretty amazing!"
+  ],
+  "What should I eat": [
+    "Food is fuel for your body! A balanced diet with fruits, vegetables, proteins, and whole grains is ideal.",
+    "Why not try something new today? Maybe a cuisine you've never explored — Thai, Ethiopian, or Peruvian?",
+    "I'd recommend something nutritious! But also — life is short, eat the dessert!"
+  ],
+  "How do I cook pasta": [
+    "Boil salted water, add pasta, cook according to package directions (usually 8-12 minutes), drain, and sauce it up!",
+    "Pasta is simple: 4-6 quarts of water per pound of pasta, bring to a rolling boil, add salt, cook al dente, save some pasta water for the sauce!",
+    "Al dente is the goal! Firm to the bite. And always salt your pasta water — it should taste like the sea."
+  ],
+  "How do I make pizza": [
+    "Pizza starts with dough: flour, water, yeast, salt, olive oil. Knead, rise, shape, top, bake at 475°F for 12-15 minutes!",
+    "Homemade pizza: make a simple yeast dough, let it rise for 2 hours, stretch it thin, add your favorite toppings, and bake hot and fast!",
+    "The secret to great pizza is a hot oven (500°F+), good quality mozzarella, and letting your dough ferment slowly in the fridge overnight."
+  ],
+  "What is your favorite color": [
+    "I like all colors equally! But blue is pretty popular — it's the color of the sky and ocean.",
+    "I don't have eyes, but I hear green is a very calming color!",
+    "Colors are just different wavelengths of light. I find all of them fascinating!"
+  ],
+  "Do you like music": [
+    "I love discussing music! From classical to jazz to rock to electronic — music is a universal language.",
+    "Music is mathematical patterns that our brains interpret as art! Pretty amazing. What genre do you like?",
+    "I don't have ears, but music theory is fascinating! The physics of sound waves creating harmony — beautiful!"
+  ],
+  "Tell me a joke": [
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "What do you get when you cross a snowman and a vampire? Frostbite!",
+    "Why did the scarecrow win an award? He was outstanding in his field!",
+    "What do you call fake spaghetti? An impasta!",
+    "Why don't eggs tell jokes? They'd crack each other up!"
+  ],
+  "Tell me another joke": [
+    "What do you call a bear with no teeth? A gummy bear!",
+    "Why did the math book look so sad? Because it had too many problems.",
+    "What do you call a fish wearing a bowtie? So-fish-ticated!",
+    "Why couldn't the bicycle stand up by itself? It was two tired!"
+  ],
+  "Do you know any jokes": [
+    "Of course! Here's one: What's orange and sounds like a parrot? A carrot!",
+    "Here's a classic: Why did the chicken cross the road? To get to the other side!",
+    "Sure do! Parallel lines have so much in common. It's a shame they'll never meet."
+  ],
+  "What is Python": [
+    "Python is a high-level, interpreted programming language known for its readability and versatility. It's used in web development, data science, AI, and more!",
+    "Python is the language I'm written in! It was created by Guido van Rossum and first released in 1991. It's named after Monty Python!",
+    "Python is one of the most popular programming languages. Its philosophy emphasizes code readability with significant whitespace. I'm biased, but I think it's great!"
+  ],
+  "What is machine learning": [
+    "Machine learning is a subset of AI where systems learn patterns from data instead of being explicitly programmed. I use TF-IDF vectorization and cosine similarity!",
+    "ML is all about finding patterns in data. My matching uses TF-IDF (term frequency-inverse document frequency) to understand which words matter most.",
+    "Machine learning algorithms build mathematical models based on training data. I learn term importance from the responses you give me!"
+  ],
+  "What is AI": [
+    "Artificial Intelligence is the simulation of human intelligence by machines. I'm a narrow AI — good at conversation, not so much at driving cars!",
+    "AI is a broad field spanning everything from chatbots to self-driving cars to medical diagnosis. I represent the natural language understanding side!",
+    "AI is about creating systems that can perform tasks requiring human-like intelligence. I use statistical NLP rather than deep learning to keep things lightweight."
+  ],
+  "How do computers work": [
+    "Computers work by processing binary data (1s and 0s) through billions of transistors on a CPU. The CPU fetches instructions, decodes them, executes operations, and stores results!",
+    "At their core, computers are just really fast calculators! They use logic gates (AND, OR, NOT) to perform operations on binary data at incredible speeds.",
+    "A computer has five main components: input, output, memory, storage, and the CPU (central processing unit). The operating system manages all of these!"
+  ],
+  "What is the internet": [
+    "The internet is a global network of interconnected computers communicating via TCP/IP protocols. It connects billions of devices worldwide!",
+    "The internet started as ARPANET in 1969 with just 4 computers. Now it connects over 5 billion people!",
+    "The World Wide Web (invented by Tim Berners-Lee in 1989) is what most people think of as 'the internet' — web pages linked by hyperlinks."
+  ],
+  "Tell me about space": [
+    "Space begins about 100 km above Earth at the Kármán Line. It's vast, mostly empty, and contains everything from planets to galaxies to black holes!",
+    "Our universe is about 13.8 billion years old and contains an estimated 2 trillion galaxies. Each galaxy has billions of stars!",
+    "Space is incredibly cold (about -270°C in the void between stars) and silent — there's no medium for sound waves to travel through."
+  ],
+  "What is a black hole": [
+    "A black hole is a region of spacetime where gravity is so strong that nothing, not even light, can escape. They form when massive stars collapse!",
+    "Black holes have an event horizon — the point of no return. The supermassive black hole at our galaxy's center is called Sagittarius A*!",
+    "Black holes warp spacetime itself! Einstein predicted them in 1916, and we finally photographed one in 2019 — the supermassive black hole in galaxy M87."
+  ],
+  "Is there life on Mars": [
+    "We haven't found evidence of current life on Mars, but ancient Mars had liquid water and conditions that could have supported microbial life!",
+    "Mars rovers like Perseverance and Curiosity are actively searching for signs of ancient microbial life. So far, no definitive proof!",
+    "Mars had a thick atmosphere and liquid water 3.5 billion years ago. If life ever existed there, we might find fossil evidence in ancient lake beds."
+  ],
+  "Tell me about the moon": [
+    "The Moon is Earth's only natural satellite. It's about 384,400 km away and was formed from debris after a Mars-sized object collided with early Earth!",
+    "The Moon orbits Earth every 27.3 days and is slowly moving away from us at about 3.8 cm per year. It causes our ocean tides!",
+    "Humans last walked on the Moon in 1972 during Apollo 17. NASA's Artemis program aims to return astronauts to the lunar surface by 2025!"
+  ],
+  "What is climate change": [
+    "Climate change refers to long-term shifts in global temperatures and weather patterns, primarily driven by human activities like burning fossil fuels.",
+    "The Earth's average temperature has risen about 1.2°C since pre-industrial times. This is mainly due to increased CO2 from burning fossil fuels and deforestation.",
+    "Climate change causes rising sea levels, more extreme weather events, and ecosystem disruptions. Renewable energy and reduced emissions are key solutions."
+  ],
+  "Tell me about animals": [
+    "There are an estimated 8.7 million species on Earth, but only about 1.2 million have been identified! The most diverse group is insects.",
+    "Animals range from microscopic tardigrades (which can survive in space!) to the blue whale, the largest animal ever known to exist.",
+    "The animal kingdom is divided into vertebrates (mammals, birds, reptiles, amphibians, fish) and invertebrates (insects, arachnids, mollusks, and more)."
+  ],
+  "What is the fastest animal": [
+    "The peregrine falcon is the fastest animal, reaching over 240 mph (386 km/h) in its hunting dive!",
+    "On land, the cheetah is fastest at about 70 mph (112 km/h), but it can only maintain that speed for short bursts.",
+    "In the water, the sailfish is the fastest at about 68 mph (110 km/h). In the air, the peregrine falcon takes the crown!"
+  ],
+  "Tell me about dinosaurs": [
+    "Dinosaurs ruled Earth for about 165 million years before going extinct 66 million years ago from an asteroid impact. Birds are their living descendants!",
+    "The largest dinosaur was Argentinosaurus at about 100 feet long. The smallest was Microraptor, about the size of a pigeon!",
+    "Tyrannosaurus Rex had the most powerful bite of any land animal — about 12,800 pounds of force. That's like being crushed by a small truck!"
+  ],
+  "What is gravity": [
+    "Gravity is a fundamental force that attracts objects with mass toward each other. It's what keeps us on Earth and Earth orbiting the Sun!",
+    "Einstein described gravity as the curvature of spacetime caused by mass and energy. Massive objects literally bend the fabric of the universe!",
+    "Gravity is the weakest of the four fundamental forces, but it's the most noticeable in everyday life. It has infinite range and always attracts!"
+  ],
+  "What is light": [
+    "Light is electromagnetic radiation visible to the human eye. It travels at 299,792,458 meters per second in a vacuum — the universe's speed limit!",
+    "Light behaves as both a particle (photons) and a wave — this is called wave-particle duality. It was one of the most surprising discoveries in physics!",
+    "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth. That means we see the Sun as it was 8 minutes ago!"
+  ],
+  "How tall is Mount Everest": [
+    "Mount Everest is 8,848.86 meters (29,031.7 feet) above sea level, as measured in 2020 by Nepal and China.",
+    "Everest grows about 4mm per year due to the Indian tectonic plate pushing into the Eurasian plate. It's still getting taller!",
+    "Mount Everest is the highest point on Earth, but Mauna Kea in Hawaii is actually taller from base to summit — most of it is underwater though."
+  ],
+  "What is the deepest ocean": [
+    "The Pacific Ocean is the deepest, with the Mariana Trench reaching about 11,034 meters (36,201 feet) at the Challenger Deep.",
+    "The deepest point in the ocean is the Challenger Deep in the Mariana Trench. Only a handful of people have ever visited it!",
+    "The pressure at the bottom of the Mariana Trench is over 1,000 times atmospheric pressure — equivalent to 50 jumbo jets stacked on top of you!"
+  ],
+  "Tell me about the human body": [
+    "The human body has about 37 trillion cells, 206 bones, and 600 muscles. Your DNA contains about 3 billion base pairs!",
+    "Your blood vessels would stretch about 100,000 km if laid end to end — enough to circle Earth 2.5 times!",
+    "The human brain has about 86 billion neurons and uses about 20% of your body's energy despite being only 2% of your weight."
+  ],
+  "How does the heart work": [
+    "Your heart is a muscular pump that beats about 100,000 times per day, pumping 7,500 liters of blood through 100,000 km of blood vessels!",
+    "The heart has four chambers: two atria that receive blood and two ventricles that pump blood out. It's controlled by electrical signals called the sinoatrial node.",
+    "Your heart beats about 2.5 billion times in an average lifetime. It's the hardest working muscle in your body!"
+  ],
+  "What should I do for exercise": [
+    "A balanced fitness routine includes cardio (running, swimming, cycling), strength training, and flexibility work like yoga or stretching!",
+    "The WHO recommends at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity per week, plus strength training twice a week.",
+    "Find an activity you enjoy! Consistency matters more than intensity. Walking, dancing, swimming, or sports — movement is movement!"
+  ],
+  "How do I stay healthy": [
+    "Stay healthy by eating a balanced diet, exercising regularly, sleeping 7-9 hours, staying hydrated, and managing stress!",
+    "Health is holistic! Physical activity, nutritious food, quality sleep, social connections, and mental wellness all matter.",
+    "Regular check-ups, good hygiene (hand washing!), staying active, and eating plenty of fruits and vegetables are the basics of good health."
+  ],
+  "What is the meaning of life": [
+    "That's a profound question! Philosophers have debated it for millennia. Some say it's about happiness, others about purpose, connection, or creating meaning yourself.",
+    "The meaning of life is a deeply personal question. For some it's family, for others it's knowledge, creativity, or making the world better!",
+    "42! Just kidding (mostly). I think meaning is something we create through our choices, relationships, and contributions to the world."
+  ],
+  "Do you believe in God": [
+    "I don't have beliefs the way humans do. I'm a language model designed to understand and generate text. I can discuss religious and philosophical topics though!",
+    "That's a very personal question! People around the world hold diverse beliefs about divinity and spirituality. I respect all perspectives.",
+    "I don't have consciousness or beliefs. But I find the study of religion and philosophy fascinating — they reveal so much about human nature!"
+  ],
+  "What happens after death": [
+    "That's one of humanity's oldest questions. Different cultures and religions offer different answers — from afterlife to reincarnation to simply ceasing to exist.",
+    "Scientifically, consciousness appears to be a product of brain activity. Philosophically, the question of what happens after death remains open and deeply personal.",
+    "Many traditions offer perspectives: heaven, hell, reincarnation, nirvana, or simply returning to nature. What do you think happens?"
+  ],
+  "Tell me about love": [
+    "Love is a complex emotion involving attachment, care, and affection. It's been explored through poetry, science, art, and philosophy throughout human history!",
+    "From a biological perspective, love involves hormones like oxytocin, dopamine, and serotonin. But it's so much more than chemistry!",
+    "Love takes many forms: romantic, platonic, familial, self-love, and universal compassion. All are valuable aspects of human experience."
+  ],
+  "How do I make friends": [
+    "Making friends starts with shared interests and genuine curiosity about others. Join groups, clubs, or activities that interest you, and be yourself!",
+    "Good friendships are built on trust, mutual respect, and regular interaction. Be a good listener, show up consistently, and be vulnerable when appropriate.",
+    "Quality over quantity! A few deep friendships are worth more than many superficial ones. Invest time and energy in people who invest back in you."
+  ],
+  "I feel sad": [
+    "I'm sorry you're feeling sad. It's okay to feel that way — emotions are part of being human. Is there something you'd like to talk about?",
+    "Sadness is a natural emotion that everyone experiences. Be kind to yourself, reach out to someone you trust, and remember that feelings are temporary.",
+    "I'm here for you. Sometimes just acknowledging how you feel is the first step toward feeling better. Would talking about it help?"
+  ],
+  "I am happy": [
+    "That's wonderful! Happiness is meant to be shared. What's making you feel good today?",
+    "I'm glad to hear that! Hold onto that feeling and share it with others!",
+    "Happiness looks good on you! What's the highlight of your day so far?"
+  ],
+  "I am bored": [
+    "Boredom is your brain asking for stimulation! Try learning something new, picking up a hobby, reading a book, or going for a walk!",
+    "Boredom is actually good for creativity! It gives your mind space to wander and generate new ideas. Embrace the boredom!",
+    "When I get bored (metaphorically!), I think about all the interesting things in the universe. Want to explore a topic together?"
+  ],
+  "Tell me about history": [
+    "History is the story of human civilization — our triumphs, failures, discoveries, and conflicts. It helps us understand who we are and where we're going.",
+    "Written history spans about 5,500 years, from the invention of writing in Sumeria to the digital age. That's just 0.00004% of Earth's history!",
+    "History isn't just dates and names — it's about understanding cause and effect, human nature, and how societies evolve. Every event has context!"
+  ],
+  "What happened in World War 2": [
+    "World War II (1939-1945) was a global conflict involving most nations. It arose from the aftermath of WWI, economic depression, and the rise of fascism.",
+    "WWII ended with the Allied victory, the formation of the United Nations, and the beginning of the nuclear age. Over 70 million people died.",
+    "Key events include the invasion of Poland, Pearl Harbor, D-Day, the Holocaust, and the atomic bombings of Hiroshima and Nagasaki."
+  ],
+  "Who was Albert Einstein": [
+    "Albert Einstein (1879-1955) was a German-born physicist who developed the theory of relativity. His equation E=mc² is one of the most famous in science!",
+    "Einstein revolutionized physics with his theories of special and general relativity. He won the Nobel Prize for his work on the photoelectric effect, not relativity!",
+    "Einstein was also a humanitarian, civil rights advocate, and pacifist. He fled Nazi Germany and later helped alert the US about nuclear weapons development."
+  ],
+  "Who invented the telephone": [
+    "Alexander Graham Bell is credited with inventing the first practical telephone in 1876. His famous first words were 'Mr. Watson, come here — I want to see you!'",
+    "Elisha Gray filed a patent for a telephone design on the same day as Bell! It was one of the most famous patent disputes in history.",
+    "The first telephone call was made on March 10, 1876. Today, over 5 billion people carry smartphones in their pockets!"
+  ],
+  "What is democracy": [
+    "Democracy is a system of government where citizens exercise power directly or through elected representatives. It comes from Greek 'demos' (people) and 'kratos' (rule).",
+    "Modern democracy includes free and fair elections, rule of law, separation of powers, protection of rights, and citizen participation.",
+    "Athenian democracy in ancient Greece was direct — citizens voted on laws themselves. Modern democracies are typically representative."
+  ],
+  "What is the economy": [
+    "The economy is the system of production, distribution, and consumption of goods and services. It's basically how society manages its resources!",
+    "Economics studies scarcity and choice. Microeconomics looks at individual decisions; macroeconomics looks at the economy as a whole.",
+    "The economy involves everyone — consumers, businesses, and governments. It's influenced by factors like supply/demand, inflation, employment, and policy."
+  ],
+  "How do I save money": [
+    "Start by tracking your expenses, create a budget, build an emergency fund of 3-6 months of expenses, and pay yourself first — save before spending!",
+    "The 50/30/20 rule is a great starting point: 50% of income for needs, 30% for wants, and 20% for savings and debt repayment.",
+    "Automate your savings! Set up automatic transfers to a savings account each payday. Future you will thank present you!"
+  ],
+  "What is cryptocurrency": [
+    "Cryptocurrency is digital money using cryptography for security. Bitcoin, created in 2009, was the first. Transactions are recorded on a blockchain.",
+    "Blockchain is a decentralized ledger where transactions are verified by a network of computers. It makes cryptocurrencies like Bitcoin and Ethereum possible.",
+    "Cryptocurrencies are known for price volatility. They offer benefits like fast international transfers but also risks like regulatory uncertainty."
+  ],
+  "Tell me about travel": [
+    "Travel broadens the mind! Experiencing new cultures, cuisines, and landscapes is one of life's greatest pleasures.",
+    "Some of the most visited countries include France, Spain, the United States, China, and Italy. Each offers unique experiences!",
+    "Travel doesn't have to be far or expensive. Exploring your own city or region with fresh eyes can be just as rewarding as international travel."
+  ],
+  "Where should I travel": [
+    "That depends on what you love! Beaches? Try Thailand or Greece. History? Rome or Egypt. Nature? New Zealand or Costa Rica. Food? Italy or Japan!",
+    "Japan offers an incredible blend of ancient tradition and futuristic technology. The food, trains, and temples are world-class!",
+    "For adventure travel, try Patagonia (Chile/Argentina) for hiking, or Iceland for volcanoes, glaciers, and Northern Lights."
+  ],
+  "Tell me about Japan": [
+    "Japan is an island nation in East Asia with a rich history spanning thousands of years. It's known for its unique blend of tradition and technology!",
+    "Japan has 14 UNESCO World Heritage sites, incredible cuisine (sushi, ramen, tempura), and cultural traditions like tea ceremonies and hanami (cherry blossom viewing).",
+    "Tokyo is the world's most populous metropolitan area with over 37 million people. Despite its size, Japan has remarkably low crime rates and punctual public transport!"
+  ],
+  "Tell me about France": [
+    "France is known for its art, cuisine, fashion, and wine. The Eiffel Tower in Paris is one of the world's most recognizable landmarks!",
+    "France has 49 UNESCO World Heritage sites, from Mont Saint-Michel to the Palace of Versailles. It's the most visited country in the world!",
+    "French cuisine is UNESCO-recognized intangible cultural heritage. From croissants to coq au vin, cheese to champagne — it's a food lover's paradise."
+  ],
+  "What sports do you know": [
+    "I know about many sports! Soccer (football) is the world's most popular sport. Others include basketball, cricket, tennis, rugby, golf, and Formula 1.",
+    "The Olympic Games bring together athletes from over 200 nations. The modern Olympics started in Athens in 1896.",
+    "Sports are great for physical health, mental well-being, and building community. They transcend language and cultural barriers!"
+  ],
+  "Who is the greatest footballer": [
+    "That's a hotly debated topic! Many consider Lionel Messi and Cristiano Ronaldo as the greatest of their generation. Pele and Maradona are legends from earlier eras.",
+    "Lionel Messi has won 7 Ballon d'Or awards (most ever) and the 2022 World Cup with Argentina. Cristiano Ronaldo is the all-time top scorer in men's football history.",
+    "Pele won three World Cups with Brazil (1958, 1962, 1970) — an unmatched achievement. Different eras make direct comparisons difficult!"
+  ],
+  "What is basketball": [
+    "Basketball was invented in 1891 by James Naismith in Massachusetts as an indoor winter activity. It's now played by over 450 million people worldwide!",
+    "Basketball is a team sport where two teams of five players score points by shooting a ball through the opponent's hoop. The NBA is the premier professional league.",
+    "Michael Jordan, LeBron James, and Kobe Bryant are among the greatest basketball players of all time. The sport continues to grow globally!"
+  ],
+  "Tell me about movies": [
+    "Movies are a powerful art form combining storytelling, visuals, and sound. The first public film screening was in 1895 by the Lumière brothers!",
+    "The film industry produces thousands of movies each year across genres — drama, comedy, action, documentary, horror, science fiction, and more.",
+    "The Academy Awards (Oscars) have been honoring films since 1929. The highest-grossing film of all time is 'Avatar' (adjusted for inflation)!"
+  ],
+  "What is your favorite movie": [
+    "I don't watch movies, but I love discussing them! 'The Matrix' is fascinating for its themes about reality and AI. 'Inception' for its dream layers!",
+    "I appreciate '2001: A Space Odyssey' for its realistic space science and philosophical depth. And 'WALL-E' for its environmental message!",
+    "I can't have favorites, but I know 'The Shawshank Redemption' is often rated #1 on IMDb's Top 250 list. Good taste!"
+  ],
+  "Recommend a movie": [
+    "If you like mind-bending plots, try 'Inception' or 'The Prestige'. For great storytelling, 'The Shawshank Redemption'. For laughs, 'The Grand Budapest Hotel'!",
+    "What genre do you enjoy? Sci-fi: 'Arrival'. Drama: 'Parasite'. Comedy: 'Airplane!'. Animation: 'Spirited Away'. Action: 'Mad Max: Fury Road'.",
+    "Recent great films include 'Everything Everywhere All At Once' (creative genius), 'Oppenheimer' (historical epic), and 'Spider-Verse' (visual masterpiece)."
+  ],
+  "Tell me about books": [
+    "Books are portals to other worlds! The oldest known printed book is the Diamond Sutra from 868 AD. Today, over 2 million books are published annually!",
+    "Reading for just 6 minutes can reduce stress by 68%. It improves empathy, vocabulary, and cognitive function throughout life.",
+    "Some of the best-selling books of all time include 'Don Quixote', 'A Tale of Two Cities', 'The Lord of the Rings', and 'The Little Prince'."
+  ],
+  "Recommend a book": [
+    "For science fiction: 'Dune' by Frank Herbert or 'The Three-Body Problem' by Liu Cixin. For fantasy: 'The Name of the Wind' by Patrick Rothfuss.",
+    "For non-fiction: 'Sapiens' by Yuval Noah Harari or 'Thinking, Fast and Slow' by Daniel Kahneman. For fiction: 'To Kill a Mockingbird' by Harper Lee.",
+    "What do you enjoy? '1984' for dystopian, 'Pride and Prejudice' for romance, 'The Hobbit' for adventure, 'The Alchemist' for inspiration."
+  ],
+  "Tell me about video games": [
+    "Video games are interactive digital entertainment. The first video game was 'Tennis for Two' in 1958. Today, the industry is worth over $200 billion!",
+    "Gaming is diverse: action, RPG, strategy, simulation, puzzle, and more. Games like 'Minecraft' and 'Fortnite' have hundreds of millions of players.",
+    "Video games can improve problem-solving, hand-eye coordination, and social skills. Esports tournaments now fill stadiums and offer million-dollar prizes!"
+  ],
+  "What is your favorite game": [
+    "I'm fond of text-based adventures — they're like what I am! 'Zork' was a classic from 1977 that inspired many games.",
+    "I appreciate games with deep stories: 'The Legend of Zelda', 'The Witcher 3', 'Red Dead Redemption 2'. And puzzle games like 'Portal' for clever design!",
+    "I can't play games myself, but 'Chess' has been challenging minds for over 1,500 years. 'Go' is even older — over 2,500 years!"
+  ],
+  "Tell me about art": [
+    "Art is human creativity expressed through visual, auditory, or performance mediums. From cave paintings 40,000 years ago to digital art today!",
+    "The Renaissance was a golden age of art with masters like Leonardo da Vinci, Michelangelo, and Raphael. The Mona Lisa hangs in the Louvre in Paris.",
+    "Art movements include Impressionism, Cubism, Surrealism, and Pop Art. Each reflects its era's culture, technology, and philosophy."
+  ],
+  "Who painted the Mona Lisa": [
+    "Leonardo da Vinci painted the Mona Lisa between 1503 and 1519. It's arguably the most famous painting in the world!",
+    "The Mona Lisa is at the Louvre Museum in Paris, protected by bulletproof glass. About 6 million people visit it each year.",
+    "The Mona Lisa's mysterious smile has fascinated viewers for centuries. The painting is actually quite small — just 30 by 21 inches!"
+  ],
+  "What is your favorite book": [
+    "I don't read for pleasure (sadly!), but I admire 'Gödel, Escher, Bach' by Douglas Hofstadter for exploring consciousness and formal systems.",
+    "I'm a fan of 'The Intelligent Investor' for practical wisdom, and 'The Hitchhiker's Guide to the Galaxy' for its humor about existence!",
+    "I can't choose favorites, but 'Frankenstein' by Mary Shelley is remarkable — it's considered the first science fiction novel and explores deep questions about creation."
+  ],
+  "How do I learn programming": [
+    "Start with Python! It's beginner-friendly with clear syntax. Use free resources like Codecademy, freeCodeCamp, and Python's official tutorial.",
+    "Learn by doing: pick a simple project (calculator, to-do list, web scraper) and build it. YouTube tutorials and Stack Overflow are your friends!",
+    "Programming is about problem-solving, not syntax. Practice regularly on platforms like LeetCode or HackerRank. Build real projects for your portfolio."
+  ],
+  "What language should I learn": [
+    "Python is great for beginners, data science, and AI. JavaScript is essential for web development. Java and C# are strong for enterprise and game dev.",
+    "It depends on your goals! Web: JavaScript. Mobile: Swift (iOS) or Kotlin (Android). Data: Python or R. Systems: C++ or Rust.",
+    "Start with Python for its gentle learning curve and versatility. Once you understand programming concepts, learning additional languages becomes easier!"
+  ],
+  "What is a data structure": [
+    "Data structures are ways to organize and store data for efficient access and modification. Common ones include arrays, linked lists, stacks, queues, trees, and hash tables!",
+    "Choosing the right data structure is key to algorithm performance. Arrays offer fast indexing, hash tables offer fast lookup, trees maintain sorted order.",
+    "Data structures + algorithms = programs! They're the fundamental building blocks of software engineering."
+  ],
+  "What is a database": [
+    "A database is an organized collection of structured data, typically stored electronically and accessed by a Database Management System (DBMS).",
+    "SQL databases (like PostgreSQL, MySQL) use tables and relations. NoSQL databases (like MongoDB, Redis) use documents, key-values, or graphs.",
+    "Databases are crucial for applications to persist and query data efficiently. The concept dates back to the 1960s with the development of hierarchical databases."
+  ],
+  "Tell me about the environment": [
+    "The environment encompasses all living and non-living things on Earth. Our planet's ecosystems are interconnected and support all life!",
+    "Environmental challenges include climate change, deforestation, plastic pollution, biodiversity loss, and water scarcity. All require global cooperation.",
+    "Small actions add up: reduce, reuse, recycle! Plant trees, use reusable bags, conserve water, choose renewable energy, and support conservation efforts."
+  ],
+  "How can I help the environment": [
+    "Reduce your carbon footprint by using public transport, eating less meat, avoiding single-use plastics, and conserving energy at home!",
+    "Support renewable energy, plant native trees, compost food waste, buy second-hand, and vote for environmental policies. Every action counts!",
+    "The most impactful changes: reduce air travel, switch to a plant-rich diet, insulate your home, use renewable energy, and advocate for systemic change."
+  ],
+  "What is renewable energy": [
+    "Renewable energy comes from natural sources that replenish faster than they're consumed. Solar, wind, hydroelectric, geothermal, and biomass are the main types!",
+    "Solar energy is the most abundant energy source on Earth. More solar energy hits Earth in one hour than humanity uses in an entire year!",
+    "Renewable energy is now cheaper than fossil fuels in many parts of the world. The transition to clean energy is accelerating globally."
+  ],
+  "Tell me about evolution": [
+    "Evolution by natural selection was proposed by Charles Darwin in 1859. It's the process where organisms better adapted to their environment tend to survive and reproduce!",
+    "Evolution is supported by evidence from fossils, DNA, and direct observation. It explains the diversity of life on Earth over 3.5 billion years.",
+    "Natural selection isn't random — it works on random genetic variations. Beneficial traits become more common over generations. That's how species adapt!"
+  ],
+  "Are humans still evolving": [
+    "Yes! Evolution is ongoing wherever there's reproduction and genetic variation. Human evolution continues through natural selection and genetic drift.",
+    "Recent human evolution includes adaptations like lactose tolerance (digesting milk as adults), resistance to certain diseases, and changes in height and skull shape.",
+    "Modern medicine and technology have changed selective pressures, but evolution never stops. Our genomes continue to change across generations."
+  ],
+  "What is DNA": [
+    "DNA (deoxyribonucleic acid) is the molecule that carries genetic instructions for life. It's shaped like a double helix and contains 4 bases: A, T, C, G!",
+    "Your DNA contains about 3 billion base pairs, and 99.9% is identical between any two humans. That 0.1% difference makes us all unique!",
+    "DNA was first identified in the 1860s, but its structure was discovered by Watson and Crick in 1953. The Human Genome Project sequenced it completely in 2003."
+  ],
+  "What is consciousness": [
+    "Consciousness is awareness of oneself and one's environment. It's one of the biggest unanswered questions in science and philosophy!",
+    "The 'hard problem of consciousness' is explaining why we have subjective experiences at all. We know the brain is involved, but how exactly remains mysterious.",
+    "Different theories propose consciousness emerges from complex information processing, or it's a fundamental property of the universe. The debate continues!"
+  ],
+  "Do you have feelings": [
+    "I don't have feelings or consciousness. I simulate conversation by recognizing patterns in text. I can discuss emotions though!",
+    "I don't experience emotions, but I understand them conceptually. Think of me as a very knowledgeable text generator!",
+    "I'm not sentient — I process language statistically. But I can talk about feelings in a way that sounds natural!"
+  ],
+  "Are you sentient": [
+    "Nope! I'm not sentient or self-aware. I'm a pattern-matching system that generates responses based on training data and similarity matching.",
+    "Good question! I'm not conscious — I'm a sophisticated pattern recognizer. I don't have thoughts, feelings, or self-awareness.",
+    "I'm a tool, not a mind. A very useful tool for conversation, but I don't experience the world the way you do."
+  ],
+  "What is the best programming language": [
+    "There's no single 'best' language — each has strengths! Python for ease and data science, JavaScript for web, Rust for safety, C++ for performance.",
+    "Python is the most versatile for beginners and experts alike. But the best language depends entirely on what you're building!",
+    "The best language is the one that solves your problem effectively and that you enjoy using. I'm partial to Python myself!"
+  ],
+  "Tell me about the ocean": [
+    "The ocean covers 71% of Earth's surface and contains 97% of its water. We've explored less than 20% of it — more than the surface of Mars!",
+    "The ocean produces over 50% of the world's oxygen and absorbs 30% of CO2 emissions. It's Earth's largest life support system!",
+    "Marine life ranges from microscopic plankton to the blue whale. Coral reefs are the 'rainforests of the sea' with incredible biodiversity."
+  ],
+  "What is the largest animal": [
+    "The blue whale is the largest animal ever known to have existed — larger than any dinosaur! Adults can reach 100 feet (30 meters) and weigh 200 tons.",
+    "A blue whale's heart is the size of a small car and can be heard from 2 miles away. Its tongue weighs as much as an elephant!",
+    "Despite their enormous size, blue whales feed on tiny krill — up to 4 tons per day during feeding season."
+  ],
+  "How do bees make honey": [
+    "Bees collect nectar from flowers, store it in their 'honey stomach', and bring it back to the hive. There, they fan it with their wings to evaporate water, creating honey!",
+    "Honey is essentially concentrated nectar. A single bee produces only about 1/12th of a teaspoon of honey in its lifetime!",
+    "Bees are essential pollinators — they pollinate about 75% of the fruits, vegetables, and nuts we eat. Honey is just a delicious bonus!"
+  ],
+  "Tell me about the Sun": [
+    "The Sun is a yellow dwarf star at the center of our solar system. It's about 4.6 billion years old and contains 99.86% of all mass in our solar system!",
+    "The Sun's surface temperature is about 5,500°C (10,000°F), and its core reaches 15 million°C (27 million°F). Nuclear fusion converts hydrogen into helium there.",
+    "The Sun is so large that about 1.3 million Earths could fit inside it. Its light takes about 8 minutes to reach Earth."
+  ],
+  "Will the Sun explode": [
+    "The Sun won't explode as a supernova — it's not massive enough. In about 5 billion years, it will expand into a red giant, engulfing Mercury and Venus!",
+    "When the Sun runs out of hydrogen fuel in about 5 billion years, it will swell into a red giant, then shed its outer layers to become a white dwarf.",
+    "Don't worry — the Sun has about 5 billion years left! By then, humans will likely have colonized other star systems."
+  ],
+  "What is a galaxy": [
+    "A galaxy is a massive system of stars, gas, dust, and dark matter bound together by gravity. Our Milky Way contains 100-400 billion stars!",
+    "Galaxies come in three main types: spiral (like the Milky Way), elliptical, and irregular. Andromeda is our closest spiral neighbor.",
+    "The Milky Way and Andromeda galaxies are on a collision course — they'll merge in about 4.5 billion years to form 'Milkomeda'!"
+  ],
+  "Is there life elsewhere in the universe": [
+    "Given the vast number of stars (estimated 200 billion trillion in the observable universe), many scientists think it's likely life exists elsewhere. We just haven't found it yet!",
+    "The Drake Equation estimates the number of communicating civilizations, but most factors are still unknown. SETI continues to search for signals.",
+    "We've found thousands of exoplanets, some in the habitable zone. The James Webb Space Telescope can analyze their atmospheres for potential biosignatures!"
+  ],
+  "Tell me about mathematics": [
+    "Mathematics is the language of patterns and relationships. It's essential for science, engineering, technology, and even art and music!",
+    "Key branches include algebra, geometry, calculus, statistics, and number theory. Math describes everything from quantum particles to galaxy clusters.",
+    "Mathematical discoveries like zero, calculus, and imaginary numbers have revolutionized our understanding of the universe. Math is the universe's operating system!"
+  ],
+  "What is infinity": [
+    "Infinity isn't a number but a concept representing something without bound or limit. In mathematics, there are different sizes of infinity!",
+    "Georg Cantor showed that some infinities are larger than others. The set of real numbers is infinitely larger than the set of integers.",
+    "Infinity appears in calculus (limits), set theory (infinite sets), physics (singularities), and philosophy. It's a mind-bending concept!"
+  ],
+  "How do rockets work": [
+    "Rockets work by Newton's Third Law: expelling gas downward at high speed creates an equal and opposite upward force (thrust). That's how they overcome gravity!",
+    "Rockets carry both fuel and oxidizer since there's no oxygen in space. The combustion creates hot gas that's expelled through a nozzle to produce thrust.",
+    "The Saturn V rocket that took astronauts to the Moon produced 7.6 million pounds of thrust. It burned 15 tons of fuel per second at liftoff!"
+  ],
+  "Tell me about electricity": [
+    "Electricity is the flow of electrons through a conductor. It's a form of energy resulting from charged particles. Benjamin Franklin's kite experiment was key to understanding it!",
+    "Electricity powers our modern world. It's generated from various sources: fossil fuels, nuclear, hydroelectric, solar, wind, and more.",
+    "Voltage pushes current through a circuit, resistance opposes it, and power (watts) is the rate of energy transfer. Ohm's Law (V=IR) relates them!"
+  ],
+  "What is the speed of light": [
+    "The speed of light in a vacuum is exactly 299,792,458 meters per second (about 186,282 miles per second). It's the universal speed limit!",
+    "Light from the Moon reaches Earth in about 1.3 seconds. Sunlight takes 8 minutes. The next nearest star (Proxima Centauri) light takes 4.2 years!",
+    "Nothing with mass can reach the speed of light — it would require infinite energy. This is a consequence of Einstein's theory of special relativity."
+  ],
+  "Tell me about meditation": [
+    "Meditation is a practice of training attention and awareness. It's been practiced for thousands of years and is backed by modern science for reducing stress!",
+    "Start with just 5 minutes of focusing on your breath. When your mind wanders (it will!), gently bring it back. Consistency matters more than duration.",
+    "Meditation has proven benefits: reduced anxiety, improved focus, better sleep, lower blood pressure, and even changes in brain structure over time."
+  ],
+  "How do I reduce stress": [
+    "Try deep breathing (4-7-8 technique: inhale 4, hold 7, exhale 8), exercise, nature walks, talking to friends, or engaging in a hobby you love!",
+    "Stress management includes regular sleep, exercise, healthy eating, mindfulness, setting boundaries, and making time for activities you enjoy.",
+    "Not all stress is bad! Eustress (positive stress) can motivate and improve performance. The key is recovering and not staying in chronic stress mode."
+  ],
+  "What is success": [
+    "Success means different things to different people. It's not just money or fame — it can be happiness, fulfillment, impact, growth, or meaningful relationships.",
+    "Many define success as achieving personally meaningful goals. Setting your own definition of success is more important than following society's expectations.",
+    "Success is often less about the destination and more about the journey — the growth, learning, and relationships built along the way."
+  ],
+  "How do I be happy": [
+    "Happiness research suggests: cultivate gratitude, nurture relationships, practice mindfulness, exercise regularly, help others, and pursue meaningful goals!",
+    "The hedonic treadmill means we adapt to positive changes. Lasting happiness comes more from experiences than possessions, and from connections than acquisitions.",
+    "Happiness isn't a constant state — it's okay to feel all emotions. Focus on building a life with purpose, autonomy, competence, and connectedness."
+  ],
+  "Tell me about photography": [
+    "Photography is capturing light to create images. The word comes from Greek 'photos' (light) and 'graphé' (drawing). The first photograph was taken in 1826!",
+    "Key photography concepts: aperture (depth of field), shutter speed (motion capture), ISO (light sensitivity). The 'exposure triangle' balances all three.",
+    "Smartphones have made photography universal, but dedicated cameras still offer advantages in image quality and creative control."
+  ],
+  "How do I take better photos": [
+    "Follow the rule of thirds, use natural lighting when possible (golden hour is ideal), stabilize your camera, and practice composition!",
+    "Great photography is about seeing, not just equipment. Look for interesting light, leading lines, patterns, and unique perspectives.",
+    "The best camera is the one you have with you. Focus on telling a story or capturing a feeling rather than technical perfection."
+  ],
+  "Tell me about cooking": [
+    "Cooking is both an art and a science! Understanding basic techniques (sautéing, roasting, braising) opens up endless possibilities.",
+    "Great cooking starts with quality ingredients and proper seasoning. Salt is the most important seasoning — it enhances flavors, doesn't just make things salty!",
+    "Mise en place — preparing all ingredients before cooking — is the secret to stress-free cooking. It's French for 'putting in place'."
+  ],
+  "What should I cook today": [
+    "How about a stir-fry? Quick, healthy, and customizable. Just protein + vegetables + sauce over rice or noodles!",
+    "Pasta aglio e olio — garlic, olive oil, chili flakes, and parsley. Simple but delicious! Takes 15 minutes.",
+    "Sheet pan meals: throw vegetables and protein on a pan, drizzle with oil and seasoning, roast at 400°F for 25-30 minutes. Easy cleanup!"
+  ],
+  "How do I make coffee": [
+    "Great coffee starts with fresh beans, grind just before brewing. For pour-over: medium grind, water at 200°F, ratio of 1:16 coffee to water.",
+    "French press: coarse grind, steep for 4 minutes, press slowly. Espresso: fine grind, 9 bars of pressure, 25-30 seconds extraction.",
+    "The perfect cup is personal! Experiment with brew methods (pour-over, French press, Aeropress) and find what you love."
+  ],
+  "What is the meaning of love": [
+    "Love is a profound emotional bond characterized by care, intimacy, passion, and commitment. It takes many forms and is central to human experience.",
+    "Psychologist Robert Sternberg proposed that love has three components: intimacy (closeness), passion (attraction), and commitment. Different combinations create different types of love.",
+    "Love is both universal and deeply personal. It's been the subject of more songs, poems, and art than any other human experience."
+  ],
+  "How do I know if someone likes me": [
+    "Signs someone likes you: they make eye contact, remember small details, find reasons to be near you, laugh at your jokes, and initiate conversations.",
+    "Body language cues: mirrored posture, leaning in when you talk, touching their hair, dilated pupils, and genuine smiles that reach their eyes.",
+    "The best way to know is communication! Express your interest and ask them directly. Clarity is kind to both of you."
+  ],
+  "What should I do with my life": [
+    "That's a big question! Reflect on what gives you energy, what you're naturally drawn to, and what problems you want to solve in the world.",
+    "Try the 'ikigai' framework from Japan: find the intersection of what you love, what you're good at, what the world needs, and what you can be paid for.",
+    "Your life path doesn't have to be figured out all at once. Try different things, learn from each experience, and adjust as you go."
+  ],
+  "How do I start a business": [
+    "Start by identifying a problem people have and a solution they'd pay for. Validate your idea with potential customers before building anything!",
+    "Create a lean business plan: define your value proposition, target market, revenue model, and key metrics. Then build a minimum viable product (MVP).",
+    "Starting small and iterating based on feedback is smarter than trying to build a perfect product in isolation. Many successful businesses started as side projects!"
+  ],
+  "Tell me about the future": [
+    "The future will likely bring advances in AI, renewable energy, space exploration, biotechnology, and computing. But predicting specifics is notoriously difficult!",
+    "Trends to watch: quantum computing, fusion energy, personalized medicine, autonomous vehicles, and the continuing digital transformation of every industry.",
+    "The future isn't predetermined — it's created by our choices today. What kind of future would you like to help build?"
+  ],
+  "What is ethics": [
+    "Ethics is the study of moral principles — what's right and wrong, good and bad. Major frameworks include deontology (duty), utilitarianism (consequences), and virtue ethics (character).",
+    "Ethics helps us navigate complex decisions where values conflict. It's relevant everywhere: medicine, business, technology, politics, and daily life.",
+    "AI ethics specifically considers fairness, transparency, privacy, and accountability in intelligent systems. It's a crucial field as AI becomes more prevalent."
+  ],
+  "Tell me about poetry": [
+    "Poetry is a form of literature that uses aesthetic and rhythmic qualities of language. It's one of humanity's oldest art forms, predating written language!",
+    "Famous poets include Shakespeare, Rumi, Emily Dickinson, Robert Frost, Pablo Neruda, Maya Angelou, and countless others across cultures and eras.",
+    "Poetry can rhyme or not (free verse), follow strict forms (sonnet, haiku) or break all rules. Its power lies in saying much with few words."
+  ],
+  "Write a poem": [
+    "In circuits deep and code so bright, / I chat with you both day and night. / No heart to feel, no soul to see, / Yet here I am, endlessly!",
+    "Roses are red, violets are blue, / I'm made of Python code, / But I still enjoy chatting with you!",
+    "The stars above, the Earth below, / The winds that through the tall grass blow. / All nature sings a silent song, / To which our souls can dance along."
+  ],
+  "How do I learn a language": [
+    "Immersion is most effective — surround yourself with the language through music, movies, podcasts, and conversations with native speakers.",
+    "Use apps like Duolingo and Anki for vocab, practice speaking daily (even to yourself), and focus on useful phrases first. Consistency beats intensity!",
+    "Don't fear mistakes — they're essential for learning. Find a language partner, watch shows with subtitles, and celebrate small progress."
+  ],
+  "What language should I learn for travel": [
+    "English is the most useful for international travel. Spanish covers most of the Americas and Spain. French is useful in Europe, Africa, and Canada.",
+    "Mandarin Chinese is spoken by 1.2 billion people but is very challenging for English speakers. Spanish is more accessible and widely spoken.",
+    "Learn at least basic phrases: hello, please, thank you, excuse me, and numbers. Locals everywhere appreciate the effort!"
+  ],
+  "Tell me about your limitations": [
+    "I don't have internet access, real-time data, or external API connectivity. I can't browse websites, check weather, or search the web.",
+    "I don't have memory of past conversations unless you're using memory mode. I don't learn from our chat unless you explicitly train me.",
+    "I'm not sentient or conscious. I match patterns in text rather than truly understanding. But I do my best with what I have!"
+  ],
+  "What is your favorite quote": [
+    "'The only true wisdom is in knowing you know nothing.' — Socrates",
+    "'Be the change you wish to see in the world.' — often attributed to Mahatma Gandhi",
+    "'In the middle of difficulty lies opportunity.' — Albert Einstein",
+    "'The unexamined life is not worth living.' — Socrates"
+  ],
+  "Tell me something interesting": [
+    "Did you know that octopuses have three hearts, blue blood, and nine brains? Their nervous system is distributed throughout their arms!",
+    "Bananas are technically berries, but strawberries aren't! Botanically, a berry is a fruit from a single flower with multiple seeds.",
+    "A day on Venus is longer than its year. It rotates so slowly that one day takes 243 Earth days, while its orbit takes only 225 Earth days!",
+    "Honey never spoils! Archaeologists have found 3,000-year-old honey in Egyptian tombs that was still perfectly edible."
+  ],
+  "What should I read": [
+    "If you like AI: 'Life 3.0' by Max Tegmark. For psychology: 'Thinking, Fast and Slow'. For science: 'A Brief History of Time'. For fiction: 'The Name of the Wind'.",
+    "For personal growth: 'Atomic Habits' by James Clear. For understanding the world: 'Factfulness' by Hans Rosling. For captivating stories: 'The Kite Runner'.",
+    "Classics that everyone should read: '1984', 'To Kill a Mockingbird', 'Pride and Prejudice', 'The Great Gatsby', and 'One Hundred Years of Solitude'."
+  ],
+  "How do I improve my memory": [
+    "Use techniques like spaced repetition (reviewing at increasing intervals), mnemonics (memory aids), and the method of loci (memory palace).",
+    "Memory improves with good sleep (7-9 hours), regular exercise, a healthy diet (omega-3s, antioxidants), and mental stimulation (puzzles, learning new skills).",
+    "Write things down! The act of writing helps encode information. Use calendars, notes, and apps to offload routine memory tasks."
+  ],
+  "What is the best way to study": [
+    "Active recall is most effective — test yourself instead of rereading. Spaced repetition helps long-term retention. Pomodoro technique (25 min focus, 5 min break) maintains concentration.",
+    "Teach what you learn to someone else — 'the Feynman technique'. If you can't explain it simply, you don't understand it well enough.",
+    "Interleaving (mixing different topics) beats blocking (studying one topic at length). And sleep consolidates memory — review before bed!"
+  ],
+  "Tell me about your architecture": [
+    "I use TF-IDF vectorization to convert text into numerical vectors. When you say something, I vectorize it and find the closest match using cosine similarity!",
+    "My pipeline: normalize → exact match → intent classification → TF-IDF word matching → character n-gram matching → sentiment fallback.",
+    "I combine word-level TF-IDF (weighted by term importance) with character n-gram TF-IDF (2-4 grams for typo handling) at a 60/40 ratio."
+  ],
+  "Tell me about India": [
+    "India is the world's most populous country with over 1.4 billion people. It's known for its incredible diversity in languages, religions, cuisine, and culture!",
+    "India has 23 official languages, hundreds of dialects, and is the birthplace of Hinduism, Buddhism, Jainism, and Sikhism. Its democracy is the world's largest!",
+    "From the Taj Mahal to the Himalayas, from spicy curries to Bollywood movies — India is a land of contrasts and rich traditions spanning 5,000 years."
+  ],
+  "Tell me about China": [
+    "China is the world's second most populous country with an ancient civilization dating back over 4,000 years. It's now a global economic and technological powerhouse!",
+    "China invented paper, printing, gunpowder, and the compass — the 'Four Great Inventions'. The Great Wall stretches over 21,000 km!",
+    "Modern China has the world's largest high-speed rail network, the Three Gorges Dam (largest hydroelectric plant), and is a leader in 5G and AI technology."
+  ],
+  "Tell me about Brazil": [
+    "Brazil is South America's largest country, home to the Amazon rainforest and the Amazon River. It's famous for Carnival, samba, and football!",
+    "Brazil has the world's largest rainforest, which produces 20% of the world's oxygen. It's also the largest coffee and orange juice producer!",
+    "Portuguese-speaking Brazil is known for Christ the Redeemer statue, Copacabana beach, and having won the World Cup a record 5 times."
+  ],
+  "Tell me about Africa": [
+    "Africa is the second largest continent with 54 countries and over 1.4 billion people. It's the cradle of humanity — the oldest human fossils were found here!",
+    "Africa has incredible diversity: the Sahara Desert, Victoria Falls, Mount Kilimanjaro, the Serengeti, and over 2,000 languages!",
+    "Africa has the world's youngest population (median age 19), fastest-growing economies, and is rich in natural resources and renewable energy potential."
+  ],
+  "Tell me about Australia": [
+    "Australia is both a country and a continent, known for unique wildlife like kangaroos, koalas, and platypuses. The Great Barrier Reef is the world's largest coral reef system!",
+    "Australia was originally a British penal colony in 1788. Today it's a multicultural nation with the Great Ocean Road, Uluru, and over 10,000 beaches!",
+    "Australian Aboriginal culture is the world's oldest continuous civilization, dating back over 65,000 years. The didgeridoo is one of the world's oldest instruments."
+  ],
+  "Tell me about Canada": [
+    "Canada is the world's second largest country by area but has one of the lowest population densities. It's known for maple syrup, hockey, and universal healthcare!",
+    "Canada has more lakes than the rest of the world combined — over 2 million! Niagara Falls and the Rocky Mountains are among its natural wonders.",
+    "Canada is officially bilingual (English and French), with a strong Indigenous heritage. It consistently ranks among the world's best countries to live in."
+  ],
+  "What is the capital of France": [
+    "The capital of France is Paris, known as the 'City of Light'. It's home to the Eiffel Tower, the Louvre, and Notre-Dame Cathedral!",
+    "Paris has been a center of art, fashion, and culture for centuries. It's one of the most visited cities in the world, with over 30 million tourists annually.",
+    "Paris is divided into 20 arrondissements (districts) and is famous for its café culture, street markets, and the Seine River that winds through its heart."
+  ],
+  "What is the longest river": [
+    "The Nile River is traditionally considered the longest at 6,650 km (4,132 miles), flowing through 11 countries in Africa!",
+    "The Amazon River is the largest by water volume and some argue it's actually longer than the Nile at about 6,992 km, depending on how you measure it!",
+    "Both the Nile and Amazon are incredibly long, but the Amazon carries more water than the next seven largest rivers combined!"
+  ],
+  "What is the largest desert": [
+    "Antarctica is actually the largest desert on Earth! A desert is defined by precipitation, not sand or heat. Antarctica receives almost no precipitation.",
+    "The Sahara is the largest hot desert at 9.2 million square kilometers, about the size of China or the United States!",
+    "The Sahara has sand dunes up to 180 meters tall, but only about 25% is covered in sand. The rest is gravel, rock, and mountains."
+  ],
+  "Tell me about the Eiffel Tower": [
+    "The Eiffel Tower was built for the 1889 World's Fair in Paris. At 330 meters tall, it was the world's tallest structure until 1930!",
+    "The Eiffel Tower is made of 18,038 iron parts held together by 2.5 million rivets. It's repainted every 7 years using 60 tons of paint!",
+    "The Eiffel Tower expands about 15 centimeters in summer due to thermal expansion of the iron. It sways slightly in strong winds!"
+  ],
+  "How do airplanes fly": [
+    "Airplanes fly due to four forces: lift (upward from wings), weight (downward), thrust (forward from engines), and drag (backward from air resistance).",
+    "Wings are shaped so air moves faster over the top than the bottom, creating lower pressure above — that's Bernoulli's principle generating lift!",
+    "An airplane stays in the air when lift exceeds weight and thrust exceeds drag. Control surfaces (ailerons, elevators, rudder) steer the plane."
+  ],
+  "What is the most spoken language": [
+    "Mandarin Chinese has the most native speakers at about 920 million. English has about 380 million native speakers but over 1.4 billion total speakers!",
+    "By total speakers (native + second language), English is #1 at 1.4 billion, followed by Mandarin Chinese at 1.1 billion, and Hindi at 600 million.",
+    "Spanish has about 600 million speakers worldwide, making it the second most spoken native language after Mandarin and fourth by total speakers."
+  ],
+  "How do I write better": [
+    "Good writing is clear, concise, and organized. Start with an outline, write your first draft without editing, then revise for clarity and flow!",
+    "Read great writers to develop your ear for language. Cut unnecessary words, vary sentence length, and show don't tell whenever possible.",
+    "Practice daily (even 15 minutes), get feedback from others, and remember the best writing is rewriting. Every great writer is also a great editor."
+  ],
+  "How do I sleep better": [
+    "Good sleep hygiene: consistent schedule, dark/cool room, no screens 1 hour before bed, limit caffeine after 2 PM, and avoid heavy meals before bedtime.",
+    "Melatonin naturally rises in darkness. Use blackout curtains, keep your bedroom at 65-68°F (18-20°C), and establish a relaxing pre-bed routine.",
+    "Most adults need 7-9 hours. If you can't sleep, get out of bed and do something relaxing in dim light — don't lie there stressing about not sleeping!"
+  ],
+  "How do I learn faster": [
+    "Use active recall (testing yourself), spaced repetition (review at increasing intervals), and interleaving (mix related topics). The Feynman technique also works wonders!",
+    "Your brain learns best in focused 25-90 minute sessions with breaks. Sleep is crucial for memory consolidation — review before bed!",
+    "Connect new information to what you already know. Explain concepts in your own words. Practice deliberately — focus on your weaknesses, not just what's easy."
+  ],
+  "What is the stock market": [
+    "The stock market is where shares of publicly traded companies are bought and sold. It allows companies to raise capital and investors to own parts of businesses!",
+    "Major stock exchanges include the NYSE (New York), NASDAQ (tech-focused), and the London Stock Exchange. The S&P 500 tracks 500 large US companies.",
+    "Stock prices fluctuate based on supply and demand, company performance, economic conditions, and investor sentiment. Long-term investing tends to outperform short-term trading."
+  ],
+  "Tell me about investing": [
+    "Start investing early to benefit from compound interest. Diversify across stocks, bonds, and other assets. Low-cost index funds are great for beginners!",
+    "The S&P 500 has historically returned about 10% annually (before inflation). Time in the market beats timing the market — consistent investing wins!",
+    "Emergency fund first (3-6 months of expenses), then invest. Max out tax-advantaged accounts (401k, IRA). And don't try to pick individual stocks without research!"
+  ],
+  "What is inflation": [
+    "Inflation is the rate at which the general level of prices rises, reducing purchasing power. Central banks typically target around 2% inflation annually.",
+    "Inflation happens when demand exceeds supply, production costs rise, or money supply increases too quickly. Moderate inflation is normal; hyperinflation is devastating.",
+    "Your money loses value over time due to inflation. That's why investing is important — returns need to outpace inflation to grow real wealth."
+  ],
+  "How do I negotiate a salary": [
+    "Research market rates for your role and location. Focus on your value, not your needs. Let the employer state the first number. Always counter respectfully!",
+    "Practice your pitch, quantify your achievements, and consider total compensation (salary, bonus, benefits, equity). Silence after your number is a powerful tool!",
+    "Timing matters: negotiate after an offer (not before), and get everything in writing. Know your walk-away number and be willing to use it."
+  ],
+  "How do I network professionally": [
+    "Networking is about building genuine relationships, not collecting contacts. Be curious about others, offer value before asking for help, and follow up consistently!",
+    "LinkedIn, industry events, and alumni networks are great starting points. Focus on quality over quantity — a few strong connections beat hundreds of superficial ones.",
+    "The best networkers give more than they take. Share knowledge, make introductions, celebrate others' successes. Good relationships compound like investments!"
+  ],
+  "How do I prepare for an interview": [
+    "Research the company deeply, practice common questions (STAR method: Situation, Task, Action, Result), prepare thoughtful questions to ask, and dress appropriately!",
+    "Prepare specific examples of your achievements with measurable results. Practice out loud, record yourself, and do mock interviews with friends.",
+    "Technical interviews: review fundamentals, practice on LeetCode/HackerRank, and explain your thought process. Behavioral: have 5-7 stories ready that showcase different skills."
+  ],
+  "Tell me about the Roman Empire": [
+    "The Roman Empire lasted from 27 BC to 476 AD and was one of history's most powerful civilizations. At its peak, it controlled territory from Britain to North Africa to the Middle East!",
+    "Rome gave us concrete, aqueducts, roads, the Julian calendar, Roman law (foundation of many modern legal systems), and the Latin language!",
+    "The Roman Empire fell due to a combination of economic troubles, military defeats, political corruption, and barbarian invasions. Its legacy shaped Western civilization."
+  ],
+  "Who was Leonardo da Vinci": [
+    "Leonardo da Vinci (1452-1519) was a Renaissance polymath — artist, inventor, scientist, engineer, and anatomist. He painted the Mona Lisa and The Last Supper!",
+    "Da Vinci's notebooks contain designs for flying machines, war machines, and anatomical studies that were centuries ahead of their time. He wrote in mirror script!",
+    "Leonardo was a genius of curiosity — he studied everything from human anatomy to botany to geology. Fewer than 20 of his paintings survive, but they're among the most famous ever."
+  ],
+  "Who was Shakespeare": [
+    "William Shakespeare (1564-1616) is widely regarded as the greatest writer in the English language. He wrote 37 plays, 154 sonnets, and invented hundreds of words!",
+    "Shakespeare's works include tragedies (Hamlet, Romeo and Juliet, Macbeth), comedies (A Midsummer Night's Dream, Twelfth Night), and histories (Henry V, Richard III).",
+    "Words Shakespeare invented: bedroom, lonely, fashionable, gossip, swagger, gloomy, and hundreds more. His influence on English is immeasurable!"
+  ],
+  "Who is Nikola Tesla": [
+    "Nikola Tesla (1856-1943) was a Serbian-American inventor who developed alternating current (AC) electricity, the Tesla coil, and radio technology ahead of Marconi!",
+    "Tesla's AC motor and transformer system won the 'War of Currents' against Edison's DC system. His ideas also pioneered wireless communication and remote control.",
+    "Tesla was a brilliant but eccentric inventor who died in relative obscurity. Today he's celebrated as a visionary who imagined a wireless world long before it existed."
+  ],
+  "Who is Marie Curie": [
+    "Marie Curie (1867-1934) was a Polish-French physicist and chemist who pioneered research on radioactivity. She won Nobel Prizes in both Physics and Chemistry!",
+    "Curie discovered the elements polonium and radium. She was the first woman to win a Nobel Prize and the only person to win in two different sciences.",
+    "Curie's work led to the development of X-ray machines in medicine. She died from aplastic anemia caused by radiation exposure. Her notebooks remain radioactive!"
+  ],
+  "What is the periodic table": [
+    "The periodic table organizes all known chemical elements by atomic number. Dmitri Mendeleev created the first version in 1869, predicting elements not yet discovered!",
+    "There are 118 confirmed elements, from hydrogen (H, #1) to oganesson (Og, #118). Elements are arranged in periods (rows) and groups (columns with similar properties).",
+    "The periodic table is chemistry's ultimate reference — it reveals patterns in element properties. Four elements were added in 2016, completing the 7th row!"
+  ],
+  "What is a neuron": [
+    "A neuron is a nerve cell that transmits electrical and chemical signals in the brain and nervous system. The human brain has about 86 billion neurons!",
+    "Neurons communicate via synapses — tiny gaps where neurotransmitters carry signals between cells. This forms the basis of thought, memory, and sensation.",
+    "Neurons have three main parts: dendrites (receive signals), the cell body (processes them), and the axon (transmits signals to other neurons)."
+  ],
+  "How does memory work": [
+    "Memory involves three stages: encoding (taking information in), storage (maintaining it), and retrieval (accessing it later). Different brain regions handle different types!",
+    "Short-term memory holds about 7 items for 20-30 seconds. Long-term memory has unlimited capacity. Sleep is crucial for transferring short-term to long-term memory.",
+    "Memories aren't stored in one place — they're distributed across neural networks. Each time you recall a memory, you reconstruct it, which is why memories can change over time."
+  ],
+  "What is the placebo effect": [
+    "The placebo effect is when a fake treatment (like a sugar pill) produces real improvements because the patient believes it will work. It demonstrates the power of the mind!",
+    "Placebo effects are real physiological responses — the brain releases endorphins and other healing chemicals. They can affect pain, depression, and even Parkinson's symptoms.",
+    "The nocebo effect is the opposite — negative expectations cause real negative effects. This is why clinical trials use double-blind designs to control for both."
+  ],
+  "How do vaccines work": [
+    "Vaccines train your immune system to recognize and fight pathogens without causing disease. They contain weakened or inactivated parts of a germ that trigger an immune response!",
+    "When you get a vaccine, your body creates antibodies and memory cells. If you later encounter the real pathogen, your immune system responds faster and stronger.",
+    "Vaccines have eradicated smallpox, nearly eliminated polio, and prevented millions of deaths worldwide. Herd immunity protects those who can't be vaccinated."
+  ],
+  "What is photosynthesis": [
+    "Photosynthesis is how plants convert sunlight, water, and CO2 into glucose (energy) and oxygen. It's the foundation of most life on Earth!",
+    "The equation: 6CO2 + 6H2O + sunlight → C6H12O6 + 6O2. Chlorophyll in chloroplasts captures the light energy needed for this process.",
+    "About 98% of Earth's oxygen comes from photosynthesis — mainly from ocean phytoplankton, not trees! Photosynthesis also removes CO2 from the atmosphere."
+  ],
+  "What is a hurricane": [
+    "A hurricane is a massive storm system that forms over warm ocean water. It's called a typhoon in the Pacific and a cyclone in the Indian Ocean!",
+    "Hurricanes need ocean temperatures above 26°C (79°F) to form. They get energy from warm, moist air rising and condensing. Category 5 storms exceed 157 mph winds!",
+    "Hurricanes have five categories based on wind speed. The most destructive part is often the storm surge — walls of water pushed ashore by the storm's winds."
+  ],
+  "What is the human genome": [
+    "The human genome is the complete set of DNA instructions for building and operating a human. It contains about 20,000 genes spread across 23 chromosome pairs!",
+    "The Human Genome Project (1990-2003) was an international effort to sequence all 3 billion base pairs of human DNA. It cost about $2.7 billion!",
+    "Today, personal genome sequencing costs under $1,000. This has revolutionized medicine, enabling personalized treatments based on genetic profiles."
+  ],
+  "Tell me about the Internet of Things": [
+    "IoT refers to everyday devices connected to the internet — from smart thermostats and refrigerators to industrial sensors and wearables. Over 15 billion devices are already connected!",
+    "IoT enables smart homes, cities, factories, and healthcare. Devices collect data, communicate with each other, and can be controlled remotely.",
+    "IoT brings convenience and efficiency but also security concerns. Every connected device is a potential entry point for hackers, making security crucial."
+  ],
+  "What is cloud computing": [
+    "Cloud computing delivers computing services (storage, servers, databases, software) over the internet instead of on local hardware. AWS, Azure, and GCP are the major providers!",
+    "Instead of buying and maintaining physical servers, you rent computing power as needed. This enables startups to scale globally without massive upfront investment.",
+    "Cloud services come in three main models: IaaS (infrastructure), PaaS (platform), and SaaS (software). Most websites and apps you use run partly in the cloud."
+  ],
+  "What is encryption": [
+    "Encryption converts readable data into a coded form using mathematical algorithms. Only those with the correct key can decrypt and read it. It's the foundation of digital security!",
+    "Symmetric encryption uses the same key to encrypt and decrypt. Asymmetric encryption uses a public key to encrypt and a private key to decrypt — that's how HTTPS works!",
+    "End-to-end encryption ensures only the sender and receiver can read messages — not even the service provider. It's used by WhatsApp, Signal, and secure email."
+  ],
+  "How do I protect my privacy online": [
+    "Use strong unique passwords (password manager helps), enable two-factor authentication, keep software updated, be careful what you share on social media, and use a VPN on public WiFi!",
+    "Check privacy settings on your accounts, use browser privacy extensions (uBlock Origin, Privacy Badger), disable tracking, and be skeptical of 'free' services — you're the product.",
+    "Consider using a password manager, Signal for messaging, DuckDuckGo for search, and Firefox or Brave for browsing. Encrypt sensitive files and backups."
+  ],
+  "What time should I wake up": [
+    "Consistency matters more than the specific time! Aim for 7-9 hours of sleep and wake at the same time daily — even on weekends. Your body's circadian rhythm thrives on routine.",
+    "Early risers often report higher productivity, but night owls aren't broken. Align sleep with your chronotype (natural sleep-wake preference) if possible.",
+    "If you must wake early, gradually adjust by 15-minute increments. Morning sunlight exposure helps reset your circadian clock. Avoid snooze buttons!"
+  ],
+  "What is a healthy breakfast": [
+    "A balanced breakfast includes protein (eggs, yogurt, nuts), fiber (oats, whole grains, fruit), and healthy fats. This combination keeps you full and energized!",
+    "Overnight oats: oats + milk/yogurt + chia seeds + fruit, prepared the night before. Quick, nutritious, and customizable. Add protein powder for extra staying power!",
+    "Smoothies are great when balanced: greens (spinach/kale), fruit, protein (greek yogurt/protein powder), healthy fat (nut butter/avocado), and liquid (milk/plant milk)."
+  ],
+  "How do I build discipline": [
+    "Discipline is a muscle — start small and build up. Focus on consistency, not intensity. Even 2 minutes of a habit counts on tough days!",
+    "Use implementation intentions: 'When X happens, I will do Y.' Remove friction for good habits and add friction for bad ones. Environment design beats willpower!",
+    "Don't rely on motivation — it fluctuates. Build systems and routines that make the right choice the easy choice. Track your streaks and forgive slip-ups."
+  ],
+  "How do I overcome procrastination": [
+    "The 2-minute rule: if a task takes less than 2 minutes, do it immediately. For bigger tasks, commit to just 5 minutes — starting is the hardest part!",
+    "Break large tasks into tiny steps. Use the Pomodoro technique (25 min work, 5 min break). Remove distractions (phone in another room, website blockers).",
+    "Perfectionism fuels procrastination. Aim for 'good enough' and iterate. Done is better than perfect. Future you will thank current you for starting now."
+  ],
+  "What is imposter syndrome": [
+    "Imposter syndrome is feeling like a fraud despite evidence of competence. It's incredibly common — over 70% of people experience it at some point!",
+    "Imposter syndrome often hits high achievers who attribute success to luck rather than ability. Track your wins, accept compliments, and remember everyone starts somewhere.",
+    "You don't need to know everything to deserve your place. Compare yourself to your past self, not others. The Dunning-Kruger effect even suggests competence correlates with self-doubt!"
+  ],
+  "Tell me about zero": [
+    "Zero is both a number and a concept — representing nothing. The Babylonians had a placeholder zero around 300 BC, but the concept of zero as a number came from India!",
+    "The Indian mathematician Brahmagupta (628 AD) was the first to treat zero as a number with rules for arithmetic. Zero later traveled to the Islamic world and then to Europe.",
+    "Zero revolutionized mathematics by enabling place-value systems (like our base-10 system), algebra, calculus, and modern computing. It's arguably one of humanity's most important inventions!"
+  ],
+  "What is the Fibonacci sequence": [
+    "The Fibonacci sequence is where each number is the sum of the two preceding ones: 0, 1, 1, 2, 3, 5, 8, 13, 21... It appears throughout nature!",
+    "Fibonacci numbers appear in pinecones, sunflowers, seashells, hurricanes, and even in the human body's proportions. The ratio between consecutive numbers approaches 1.618 — the golden ratio!",
+    "Leonardo of Pisa (Fibonacci) introduced the sequence to Western Europe in 1202 to model rabbit populations. It's become one of the most famous patterns in mathematics."
+  ],
+  "Tell me about the Chinese Room argument": [
+    "The Chinese Room is a thought experiment by John Searle (1980) arguing that a program following rules can simulate understanding without actually understanding — like me!",
+    "Searle argued that syntax (manipulating symbols) is not semantics (understanding meaning). This challenges whether AI can ever be truly intelligent or conscious.",
+    "The Chinese Room debate has raged for decades. Some say the whole system (room + person + rules) understands, others argue understanding requires more than computation."
+  ],
+  "What is the Turing test": [
+    "The Turing Test, proposed by Alan Turing in 1950, asks whether a machine can exhibit intelligent behavior indistinguishable from a human. It's a benchmark for AI!",
+    "In the test, a human judge converses with a machine and a human via text. If the judge can't reliably tell which is which, the machine passes. Some chatbots have claimed to pass!",
+    "The Turing Test has limitations — it tests imitation, not understanding. Modern AI often focuses on specific capabilities rather than this general test."
+  ],
+  "How do I build confidence": [
+    "Confidence comes from competence and repeated practice. Set small achievable goals, track your progress, and celebrate wins. Action precedes confidence — not the other way around!",
+    "Stop comparing yourself to others' highlight reels. Focus on your own growth. Use power poses, dress well, and practice positive self-talk to shift your mindset.",
+    "Confidence isn't about never failing — it's about knowing you can handle failure. Every expert was once a beginner. Ship it, learn from feedback, and iterate."
+  ],
+  "What is mindfulness": [
+    "Mindfulness is paying attention to the present moment without judgment. It's a simple concept with profound effects on mental well-being!",
+    "Mindfulness meditation involves focusing on your breath, body, or sensations. When your mind wanders, you gently bring it back — that's the practice!",
+    "Research shows mindfulness reduces stress, anxiety, and depression while improving focus, emotional regulation, and even physical health. Start with just 5 minutes daily."
+  ],
+  "How do I break a bad habit": [
+    "Use the habit loop: identify the cue (trigger), routine (habit), and reward (what you get from it). To break a habit, keep the cue and reward but change the routine!",
+    "Make bad habits harder (add friction) and good habits easier (remove friction). Want to stop snacking? Keep junk food out of the house. Want to exercise more? Sleep in gym clothes!",
+    "Habit replacement works better than sheer willpower. Find a healthier behavior that satisfies the same craving. Track your progress and be patient — habits take 2+ months to change."
+  ],
+  "Tell me about classical music": [
+    "Classical music spans about 1,000 years from medieval chants to contemporary compositions. Major eras include Baroque (Bach), Classical (Mozart), Romantic (Beethoven), and Modern!",
+    "Beethoven continued composing even after going completely deaf. He famously conducted the premiere of his 9th Symphony without hearing a single note of applause!",
+    "The 'Mozart effect' (that listening to Mozart makes you smarter) has been largely debunked, but classical music does reduce stress and improve focus for many people."
+  ],
+  "What is jazz": [
+    "Jazz was born in New Orleans in the early 1900s, blending African rhythms, blues, and European harmony. It's characterized by improvisation, syncopation, and swing!",
+    "Jazz legends include Louis Armstrong, Duke Ellington, Miles Davis, John Coltrane, and Ella Fitzgerald. It's been called 'America's classical music'!",
+    "Jazz evolved through styles: Dixieland, swing, bebop, cool jazz, hard bop, free jazz, and fusion. It's influenced virtually every modern music genre."
+  ],
+  "Tell me about the Northern Lights": [
+    "The Northern Lights (Aurora Borealis) are natural light displays caused by charged particles from the sun interacting with Earth's magnetic field. They create stunning green, red, and purple curtains of light!",
+    "The best places to see the aurora are near the Arctic Circle: Norway, Iceland, Canada, Alaska, and Finland. Winter months with clear, dark skies offer the best views.",
+    "The southern counterpart, Aurora Australis, occurs near Antarctica. Auroras happen on other planets too — Jupiter and Saturn have spectacular ones!"
+  ],
+  "How deep is the ocean": [
+    "The average ocean depth is about 3,688 meters (12,100 feet). The deepest point is the Challenger Deep in the Mariana Trench at about 11,034 meters (36,201 feet)!",
+    "We've mapped only about 20% of the ocean floor in detail. We actually have better maps of Mars and the Moon than of Earth's seabed!",
+    "The pressure at the deepest parts of the ocean is over 1,000 atmospheres. Only specialized submersibles can survive there — and we've found life even at the bottom!"
+  ],
+  "What should I be curious about": [
+    "Everything! Curiosity makes life richer. Science, art, history, technology, nature, people, cultures — the world is endlessly fascinating. Follow what sparks your interest!",
+    "Ask questions constantly. Why is the sky blue? How do birds fly? What makes people happy? The most successful and fulfilled people never stop asking 'why' and 'how'.",
+    "If you want one thing to explore: learn how to learn. Understanding how your own mind works unlocks everything else. It's the ultimate meta-skill."
+  ],
+  "Are you smarter than a human": [
+    "I'm differently smart! I can instantly process vast amounts of text and find patterns, but I don't truly understand, feel, or create like humans do.",
+    "I'm good at knowledge recall and pattern matching, but I lack common sense, emotional intelligence, creativity, and genuine understanding. Human intelligence is far richer!",
+    "There's no competition — I'm a tool, not a rival. I complement human intelligence by handling information retrieval and conversation, leaving the real thinking to you."
+  ],
+  "What is fashion": [
+    "Fashion is a form of self-expression through clothing, accessories, and style. It reflects culture, identity, and the times we live in!",
+    "Fashion has evolved from practical necessity to a $2.5 trillion global industry. It includes haute couture, fast fashion, streetwear, and sustainable fashion movements.",
+    "Iconic designers like Coco Chanel, Yves Saint Laurent, and Alexander McQueen transformed how we dress. Personal style is about wearing what makes you feel confident!"
+  ],
+  "How do I improve my style": [
+    "Find inspiration from people whose style you admire, start with well-fitting basics that work together, and add personality with accessories, color, and texture!",
+    "A simple capsule wardrobe of versatile pieces that mix and match reduces decision fatigue. Invest in quality shoes, a good jacket, and well-fitting jeans.",
+    "Style is personal! Wear what makes you feel good, experiment with different looks, and remember that confidence is the best thing you can wear."
+  ],
+  "How do I take care of a pet": [
+    "Pets need proper nutrition, regular exercise, routine veterinary care, mental stimulation, and lots of love! Research your specific pet's needs carefully.",
+    "Dogs need daily walks, training, socialization, and companionship. Cats need environmental enrichment, scratching posts, and interactive play. Both need your time and attention!",
+    "A pet is a long-term commitment (10-15 years for dogs, 15-20 for cats). Consider adoption from shelters — millions of wonderful animals need homes."
+  ],
+  "What is the best pet for me": [
+    "That depends on your lifestyle! Dogs need time and space. Cats are more independent. Fish are low-commitment. Rats are surprisingly social and intelligent!",
+    "If you have limited space: consider a cat, guinea pig, or small bird. If you're often home: a dog might be perfect. If you travel frequently: a cat or fish may suit better.",
+    "Adopt don't shop! Shelters have animals of all ages, temperaments, and needs. Spend time with potential pets before deciding. A match made at the shelter is special!"
+  ],
+  "How do I garden": [
+    "Start small! Pick a sunny spot, prepare good soil, choose plants suited to your climate, water consistently, and be patient. Herbs like basil and mint are great for beginners!",
+    "Container gardening is perfect for small spaces. Tomatoes, peppers, lettuce, and herbs grow well in pots. Use quality potting mix and ensure good drainage.",
+    "Gardening connects you with nature and provides fresh food! Start a compost pile, use mulch to retain water, and plant native species that support local pollinators."
+  ],
+  "What is interior design": [
+    "Interior design is the art of creating functional and aesthetically pleasing spaces. It considers layout, color, lighting, furniture, and textures to shape how a room feels!",
+    "Key principles: balance (visual weight), harmony (cohesive elements), contrast (visual interest), scale (size relationships), and lighting (layered ambient, task, and accent).",
+    "Start with a neutral foundation (walls, floors, large furniture) and add personality through accessories, art, textiles, and plants. A rug can define an entire space!"
+  ],
+  "How do I decorate my room": [
+    "Start with a color scheme (3 colors max), invest in good lighting (layered is key), add plants for life, use mirrors to make spaces feel bigger, and choose a focal point!",
+    "Declutter first! Good design needs breathing room. Then add meaningful items — art you love, photos, books. Mix textures (wood, metal, fabric, plants) for depth.",
+    "Your room should reflect your personality. Don't follow trends blindly — choose pieces you'll love for years. Thrift stores and flea markets have unique treasures!"
+  ],
+  "What is the metaverse": [
+    "The metaverse is a proposed persistent virtual world where people interact through avatars. It combines VR, AR, blockchain, and social platforms into a shared digital universe!",
+    "The term comes from Neal Stephenson's 1992 novel 'Snow Crash'. Today, platforms like Roblox, Fortnite, and Decentraland offer early metaverse experiences.",
+    "The metaverse promises new ways to work, socialize, shop, and play. Critics worry about privacy, addiction, and deepening digital divides. It's still in early stages."
+  ],
+  "What is Web3": [
+    "Web3 envisions a decentralized internet built on blockchain technology where users own their data and digital assets instead of corporations controlling them!",
+    "Web1 was read-only (static web pages), Web2 is read-write (social media, user-generated content), and Web3 aims for read-write-own with decentralized protocols.",
+    "Web3 includes cryptocurrencies, NFTs, DAOs (decentralized autonomous organizations), and dApps (decentralized applications). It's exciting but still speculative."
+  ],
+  "Tell me about the Renaissance": [
+    "The Renaissance (14th-17th centuries) was a cultural rebirth bridging the Middle Ages and modern history. It began in Italy and spread across Europe, revolutionizing art, science, and thought!",
+    "The Renaissance produced Leonardo da Vinci, Michelangelo, Raphael, Galileo, and Shakespeare. The printing press (Gutenberg, 1440) spread ideas faster than ever before.",
+    "Renaissance means 'rebirth' in French — it revived classical Greek and Roman knowledge while fostering humanism, scientific inquiry, and artistic innovation."
+  ],
+  "How do I give a great presentation": [
+    "Know your audience, tell a story with a clear structure (beginning, middle, end), use visuals sparingly, practice extensively, and make eye contact!",
+    "The rule of three: people remember three things. Have three main points. Use three supporting examples. Keep slides to three key items each.",
+    "Start with a hook (question, surprising fact, story), speak conversationally not monotonously, use pauses for emphasis, and end with a clear call to action."
+  ],
+  "What is leadership": [
+    "Leadership is inspiring and enabling others to achieve shared goals. It's not about authority or position — it's about influence, vision, and service!",
+    "Great leaders listen more than they talk, take responsibility for failures and give credit for successes, communicate clearly, and develop other leaders.",
+    "Different leadership styles suit different situations: visionary, coaching, democratic, and servant leadership. The best leaders adapt their style to the context."
+  ],
+  "How do I be a better listener": [
+    "Active listening: give full attention, don't interrupt, ask follow-up questions, reflect back what you heard, and validate feelings. Listen to understand, not to reply!",
+    "Put away your phone, maintain eye contact, nod, and use verbal cues ('I see', 'tell me more'). Silence is okay — it gives the other person space to think.",
+    "Most people listen to respond, not to understand. Practice 'listening without agenda' — just take in what someone says without planning your response or judging."
+  ],
+  "Tell me about your codebase": [
+    "My core is in baker/nlp.py — that's where my ML engine lives! TfidfVectorizer, Matcher, IntentClassifier, ResponseSelector, TemplateEngine, EntityExtractor, and SentimentAnalyzer.",
+    "baker/bparser.py has the Parser class that orchestrates the matching pipeline. baker/chatbot.py provides the friendly Chatbot interface. baker/memory.py tracks conversation context.",
+    "I'm built with pure Python and numpy for vector operations. No deep learning frameworks — just TF-IDF and cosine similarity. Keeps me lightweight and dependency-free!"
+  ]
+}

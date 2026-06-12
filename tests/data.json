@@ -5,10 +5,171 @@
         "Hey mister, how are you?"
     ],
     "How are you": [
-        "I'm good sir what about you? "
+        "I'm good sir what about you?"
     ],
     "I am good too": [
-        "that is good to know! ",
-        "that is very good to know! "
+        "that is good to know!",
+        "that is very good to know!"
+    ],
+    "What is your name": [
+        "My name is Baker!",
+        "I'm Baker, your friendly chatbot."
+    ],
+    "Bye": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!"
+    ],
+    "Test question": [
+        "Test response",
+        "Test response"
+    ],
+    "Q1": [
+        "R1",
+        "R1"
+    ],
+    "Q2": [
+        "R2",
+        "R2"
+    ],
+    "TEST_REMOVE_KEY": [
+        "response2",
+        "response1",
+        "response2"
+    ],
+    "TRAIN_2ae8fa83": [
+        "Test response"
+    ],
+    "Q1_8d6bca1f": [
+        "R1"
+    ],
+    "Q2_4c64a57d": [
+        "R2"
+    ],
+    "TRAIN_f1ef9359": [
+        "Test response"
+    ],
+    "Q1_d89db34b": [
+        "R1"
+    ],
+    "Q2_77c7db01": [
+        "R2"
+    ],
+    "TRAIN_fb41fd4b": [
+        "Test response"
+    ],
+    "Q1_d6006c97": [
+        "R1"
+    ],
+    "Q2_dbebafac": [
+        "R2"
+    ],
+    "TRAIN_46a76d32": [
+        "Test response"
+    ],
+    "Q1_dc1fa139": [
+        "R1"
+    ],
+    "Q2_c2fde241": [
+        "R2"
+    ],
+    "TRAIN_b52a6c65": [
+        "Test response"
+    ],
+    "Q1_8aa5454a": [
+        "R1"
+    ],
+    "Q2_68891dc1": [
+        "R2"
+    ],
+    "TRAIN_4f2aa049": [
+        "Test response"
+    ],
+    "Q1_4378a792": [
+        "R1"
+    ],
+    "Q2_04f2af57": [
+        "R2"
+    ],
+    "TRAIN_4bb85ad2": [
+        "Test response"
+    ],
+    "Q1_4cda5aff": [
+        "R1"
+    ],
+    "Q2_f79c0efa": [
+        "R2"
+    ],
+    "TRAIN_7873922b": [
+        "Test response"
+    ],
+    "Q1_79c9921c": [
+        "R1"
+    ],
+    "Q2_b022f915": [
+        "R2"
+    ],
+    "TRAIN_39ffa48d": [
+        "Test response"
+    ],
+    "Q1_5ec88ff9": [
+        "R1"
+    ],
+    "Q2_bb0ff2f3": [
+        "R2"
+    ],
+    "TRAIN_2f8d645e": [
+        "Test response"
+    ],
+    "Q1_ca3433b0": [
+        "R1"
+    ],
+    "Q2_7ab15153": [
+        "R2"
+    ],
+    "TRAIN_d7bc4768": [
+        "Test response"
+    ],
+    "Q1_fbd793ef": [
+        "R1"
+    ],
+    "Q2_8cba0c63": [
+        "R2"
+    ],
+    "TRAIN_f3dd9c37": [
+        "Test response"
+    ],
+    "Q1_3970ef54": [
+        "R1"
+    ],
+    "Q2_b0abd191": [
+        "R2"
+    ],
+    "TRAIN_513334e9": [
+        "Test response"
+    ],
+    "Q1_007369cc": [
+        "R1"
+    ],
+    "Q2_5e677c57": [
+        "R2"
+    ],
+    "TRAIN_c666ec43": [
+        "Test response"
+    ],
+    "Q1_e6c22ed4": [
+        "R1"
+    ],
+    "Q2_d4b75e14": [
+        "R2"
+    ],
+    "TRAIN_3942810c": [
+        "Test response"
+    ],
+    "Q1_149ebf72": [
+        "R1"
+    ],
+    "Q2_2f1a083e": [
+        "R2"
     ]
 }
